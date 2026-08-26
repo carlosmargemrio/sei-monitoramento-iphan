@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T17:14:11+00:00",
+  "generated_at": "2026-08-26T17:26:15+00:00",
   "timezone": "America/Bahia",
   "monitoramento": {
     "inicio": "08:00",
@@ -11,7 +11,7 @@
     "atraso_apos_minutos": 75,
     "destaque_alteracao_horas": 24
   },
-  "process_count": 3,
+  "process_count": 4,
   "failure_count": 0,
   "change_count": 0,
   "processes": [
@@ -25,8 +25,8 @@
       "initialized": true,
       "baseline_at": "2026-08-26T02:14:23+00:00",
       "last_change_at": null,
-      "last_attempt_at": "2026-08-26T17:13:56+00:00",
-      "last_success_at": "2026-08-26T17:13:56+00:00",
+      "last_attempt_at": "2026-08-26T17:25:57+00:00",
+      "last_success_at": "2026-08-26T17:25:57+00:00",
       "last_error_at": null,
       "last_error": null,
       "consecutive_failures": 0,
@@ -46,14 +46,35 @@
       "initialized": true,
       "baseline_at": "2026-08-26T17:14:02+00:00",
       "last_change_at": null,
-      "last_attempt_at": "2026-08-26T17:14:02+00:00",
-      "last_success_at": "2026-08-26T17:14:02+00:00",
+      "last_attempt_at": "2026-08-26T17:26:02+00:00",
+      "last_success_at": "2026-08-26T17:26:02+00:00",
       "last_error_at": null,
       "last_error": null,
       "consecutive_failures": 0,
       "counts": {
         "protocolos": 319,
         "andamentos": 406
+      },
+      "history_count": 0
+    },
+    {
+      "id": "01496.000883/2019-12",
+      "numero": "01496.000883/2019-12",
+      "nome": "Barragem Freixeirinha",
+      "grupo": "Barragem Freixeirinha-CE",
+      "url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ3dZA-OsGYoznwkFQeG-33wfqRRQE61P3d26ALogAy88",
+      "ativo": true,
+      "initialized": true,
+      "baseline_at": "2026-08-26T17:26:07+00:00",
+      "last_change_at": null,
+      "last_attempt_at": "2026-08-26T17:26:07+00:00",
+      "last_success_at": "2026-08-26T17:26:07+00:00",
+      "last_error_at": null,
+      "last_error": null,
+      "consecutive_failures": 0,
+      "counts": {
+        "protocolos": 97,
+        "andamentos": 112
       },
       "history_count": 0
     },
@@ -67,8 +88,8 @@
       "initialized": true,
       "baseline_at": "2026-08-26T17:14:08+00:00",
       "last_change_at": null,
-      "last_attempt_at": "2026-08-26T17:14:08+00:00",
-      "last_success_at": "2026-08-26T17:14:08+00:00",
+      "last_attempt_at": "2026-08-26T17:26:12+00:00",
+      "last_success_at": "2026-08-26T17:26:12+00:00",
       "last_error_at": null,
       "last_error": null,
       "consecutive_failures": 0,

@@ -1,0 +1,1263 @@
+{
+  "process_id": "01496.000883/2019-12",
+  "process_number": "01496.000883/2019-12",
+  "process_name": "Barragem Freixeirinha",
+  "group": "Barragem Freixeirinha-CE",
+  "source_url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ3dZA-OsGYoznwkFQeG-33wfqRRQE61P3d26ALogAy88",
+  "active": true,
+  "last_attempt_at": "2026-08-26T17:26:07+00:00",
+  "last_success_at": "2026-08-26T17:26:07+00:00",
+  "last_error_at": null,
+  "last_error": null,
+  "consecutive_failures": 0,
+  "counts": {
+    "protocolos": 97,
+    "andamentos": 112
+  },
+  "protocolos": [
+    {
+      "documento": "1676103",
+      "tipo": "Ofício",
+      "data": "11/12/2019",
+      "data_inclusao": "12/12/2019",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "1676120",
+      "tipo": "Anexo",
+      "data": "11/12/2019",
+      "data_inclusao": "12/12/2019",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "1676574",
+      "tipo": "Despacho 1708",
+      "data": "12/12/2019",
+      "data_inclusao": "12/12/2019",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "1703694",
+      "tipo": "Nota Técnica 411",
+      "data": "26/12/2019",
+      "data_inclusao": "26/12/2019",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "1704420",
+      "tipo": "Ofício 1557",
+      "data": "26/12/2019",
+      "data_inclusao": "26/12/2019",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "1705490",
+      "tipo": "E-mail",
+      "data": "27/12/2019",
+      "data_inclusao": "27/12/2019",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "1719806",
+      "tipo": "Ofício",
+      "data": "08/01/2019",
+      "data_inclusao": "08/01/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "1728111",
+      "tipo": "Aviso de Recebimento - AR",
+      "data": "13/01/2020",
+      "data_inclusao": "13/01/2020",
+      "unidade": "DIVAD IPHAN-CE"
+    },
+    {
+      "documento": "1778259",
+      "tipo": "Ofício",
+      "data": "04/02/2020",
+      "data_inclusao": "05/02/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "1703484",
+      "tipo": "Parecer - Ficha de Caracterização de Atividade FCA 44",
+      "data": "21/02/2020",
+      "data_inclusao": "21/02/2020",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "1814691",
+      "tipo": "Despacho 188",
+      "data": "21/02/2020",
+      "data_inclusao": "21/02/2020",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "1815122",
+      "tipo": "Despacho 189",
+      "data": "21/02/2020",
+      "data_inclusao": "21/02/2020",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "1815148",
+      "tipo": "E-mail",
+      "data": "21/02/2020",
+      "data_inclusao": "21/02/2020",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "1815192",
+      "tipo": "Nota Técnica 56",
+      "data": "21/02/2020",
+      "data_inclusao": "21/02/2020",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "1816010",
+      "tipo": "Nota Técnica 10",
+      "data": "21/02/2020",
+      "data_inclusao": "21/02/2020",
+      "unidade": "ETS-CE"
+    },
+    {
+      "documento": "1817237",
+      "tipo": "Termo de Referência Específico 6",
+      "data": "21/02/2020",
+      "data_inclusao": "21/02/2020",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "1817796",
+      "tipo": "Ofício 191",
+      "data": "27/02/2020",
+      "data_inclusao": "27/02/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "1820521",
+      "tipo": "E-mail",
+      "data": "27/02/2020",
+      "data_inclusao": "27/02/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "1822856",
+      "tipo": "E-mail",
+      "data": "28/02/2020",
+      "data_inclusao": "28/02/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "1817356",
+      "tipo": "Ofício 13",
+      "data": "27/02/2020",
+      "data_inclusao": "27/02/2020",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "1820724",
+      "tipo": "Despacho 1197",
+      "data": "27/02/2020",
+      "data_inclusao": "27/02/2020",
+      "unidade": "CNL"
+    },
+    {
+      "documento": "1832617",
+      "tipo": "Ofício 1459",
+      "data": "03/03/2020",
+      "data_inclusao": "03/03/2020",
+      "unidade": "CNL"
+    },
+    {
+      "documento": "1833511",
+      "tipo": "Despacho 90",
+      "data": "04/03/2020",
+      "data_inclusao": "04/03/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "1836209",
+      "tipo": "Aviso de Recebimento - AR",
+      "data": "05/03/2020",
+      "data_inclusao": "05/03/2020",
+      "unidade": "DIVAD IPHAN-CE"
+    },
+    {
+      "documento": "1849463",
+      "tipo": "Aviso de Recebimento - AR",
+      "data": "11/03/2020",
+      "data_inclusao": "11/03/2020",
+      "unidade": "DIVAD IPHAN-CE"
+    },
+    {
+      "documento": "1973950",
+      "tipo": "E-mail",
+      "data": "21/05/2020",
+      "data_inclusao": "22/05/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "1973961",
+      "tipo": "Anexo",
+      "data": "21/05/2020",
+      "data_inclusao": "22/05/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2005456",
+      "tipo": "Parecer - Projeto de Avaliação de Impacto Arqueol 18",
+      "data": "16/06/2020",
+      "data_inclusao": "16/06/2020",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "2012093",
+      "tipo": "Ofício 507",
+      "data": "17/06/2020",
+      "data_inclusao": "17/06/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2012609",
+      "tipo": "E-mail",
+      "data": "17/06/2020",
+      "data_inclusao": "17/06/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2064793",
+      "tipo": "E-mail",
+      "data": "15/07/2020",
+      "data_inclusao": "16/07/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2064799",
+      "tipo": "Anexo",
+      "data": "15/07/2020",
+      "data_inclusao": "16/07/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2085965",
+      "tipo": "Parecer - Projeto de Avaliação de Impacto Arqueol 23",
+      "data": "30/07/2020",
+      "data_inclusao": "30/07/2020",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "2094163",
+      "tipo": "Ofício 672",
+      "data": "03/08/2020",
+      "data_inclusao": "03/08/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2095567",
+      "tipo": "E-mail",
+      "data": "03/08/2020",
+      "data_inclusao": "03/08/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2095049",
+      "tipo": "E-mail",
+      "data": "03/08/2020",
+      "data_inclusao": "03/08/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2095054",
+      "tipo": "Documento",
+      "data": "03/08/2020",
+      "data_inclusao": "03/08/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2096925",
+      "tipo": "E-mail",
+      "data": "04/08/2020",
+      "data_inclusao": "04/08/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2097806",
+      "tipo": "Despacho 817",
+      "data": "04/08/2020",
+      "data_inclusao": "04/08/2020",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "2100240",
+      "tipo": "Ofício 688",
+      "data": "05/08/2020",
+      "data_inclusao": "05/08/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2117040",
+      "tipo": "Parecer Técnico 1556",
+      "data": "20/08/2020",
+      "data_inclusao": "20/08/2020",
+      "unidade": "ATEC - COPEL"
+    },
+    {
+      "documento": "2133087",
+      "tipo": "E-mail",
+      "data": "21/08/2020",
+      "data_inclusao": "21/08/2020",
+      "unidade": "COPEL"
+    },
+    {
+      "documento": "2135163",
+      "tipo": "E-mail",
+      "data": "24/08/2020",
+      "data_inclusao": "24/08/2020",
+      "unidade": "COPEL"
+    },
+    {
+      "documento": "2135164",
+      "tipo": "Documento",
+      "data": "24/08/2020",
+      "data_inclusao": "24/08/2020",
+      "unidade": "COPEL"
+    },
+    {
+      "documento": "2147794",
+      "tipo": "Parecer Técnico 1680",
+      "data": "28/08/2020",
+      "data_inclusao": "28/08/2020",
+      "unidade": "ATEC - COPEL"
+    },
+    {
+      "documento": "2149117",
+      "tipo": "Portaria",
+      "data": "31/08/2020",
+      "data_inclusao": "31/08/2020",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "2149107",
+      "tipo": "E-mail",
+      "data": "31/08/2020",
+      "data_inclusao": "31/08/2020",
+      "unidade": "ATEC - COPEL"
+    },
+    {
+      "documento": "2149095",
+      "tipo": "Documento",
+      "data": "31/08/2020",
+      "data_inclusao": "31/08/2020",
+      "unidade": "ATEC - COPEL"
+    },
+    {
+      "documento": "2158654",
+      "tipo": "Parecer Técnico 1717",
+      "data": "03/09/2020",
+      "data_inclusao": "03/09/2020",
+      "unidade": "ATEC - COPEL"
+    },
+    {
+      "documento": "2165318",
+      "tipo": "Portaria",
+      "data": "08/09/2020",
+      "data_inclusao": "08/09/2020",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "2149214",
+      "tipo": "Ofício 2977",
+      "data": "08/09/2020",
+      "data_inclusao": "08/09/2020",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "2168616",
+      "tipo": "Despacho 328",
+      "data": "09/09/2020",
+      "data_inclusao": "09/09/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2300535",
+      "tipo": "E-mail",
+      "data": "11/11/2020",
+      "data_inclusao": "12/11/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2300556",
+      "tipo": "Anexo",
+      "data": "11/11/2020",
+      "data_inclusao": "12/11/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2321096",
+      "tipo": "Despacho 1185",
+      "data": "20/11/2020",
+      "data_inclusao": "20/11/2020",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "2321364",
+      "tipo": "Despacho 1186",
+      "data": "20/11/2020",
+      "data_inclusao": "20/11/2020",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "2349778",
+      "tipo": "E-mail",
+      "data": "03/12/2020",
+      "data_inclusao": "04/12/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2357915",
+      "tipo": "Despacho 496",
+      "data": "08/12/2020",
+      "data_inclusao": "08/12/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2381428",
+      "tipo": "E-mail",
+      "data": "17/12/2020",
+      "data_inclusao": "18/12/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2381430",
+      "tipo": "Ofício",
+      "data": "17/12/2020",
+      "data_inclusao": "18/12/2020",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2387580",
+      "tipo": "Relatório",
+      "data": "22/12/2020",
+      "data_inclusao": "22/12/2020",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "2405356",
+      "tipo": "E-mail",
+      "data": "04/01/2021",
+      "data_inclusao": "05/01/2021",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2387582",
+      "tipo": "Parecer - Relatório de Pesquisa Arqueológica 62",
+      "data": "15/01/2021",
+      "data_inclusao": "15/01/2021",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "2426315",
+      "tipo": "Ofício 46",
+      "data": "15/01/2021",
+      "data_inclusao": "15/01/2021",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2426552",
+      "tipo": "E-mail",
+      "data": "15/01/2021",
+      "data_inclusao": "15/01/2021",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2431135",
+      "tipo": "E-mail",
+      "data": "18/01/2021",
+      "data_inclusao": "19/01/2021",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2530964",
+      "tipo": "E-mail",
+      "data": "06/03/2021",
+      "data_inclusao": "08/03/2021",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2530977",
+      "tipo": "Ofício",
+      "data": "06/03/2021",
+      "data_inclusao": "08/03/2021",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2534417",
+      "tipo": "Relatório",
+      "data": "09/03/2021",
+      "data_inclusao": "09/03/2021",
+      "unidade": "CNL"
+    },
+    {
+      "documento": "2531205",
+      "tipo": "Anexo",
+      "data": "08/03/2021",
+      "data_inclusao": "08/03/2021",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2533537",
+      "tipo": "E-mail",
+      "data": "24/02/2021",
+      "data_inclusao": "08/03/2021",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "2531700",
+      "tipo": "Despacho 317",
+      "data": "08/03/2021",
+      "data_inclusao": "08/03/2021",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "2533582",
+      "tipo": "Ofício 316",
+      "data": "08/03/2021",
+      "data_inclusao": "08/03/2021",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2534569",
+      "tipo": "Ofício 1117",
+      "data": "12/03/2021",
+      "data_inclusao": "12/03/2021",
+      "unidade": "CNL"
+    },
+    {
+      "documento": "2613604",
+      "tipo": "Parecer - Relatório de Pesquisa Arqueológica 12",
+      "data": "22/04/2021",
+      "data_inclusao": "22/04/2021",
+      "unidade": "ATEC - COPEL"
+    },
+    {
+      "documento": "2746583",
+      "tipo": "Ofício",
+      "data": "16/06/2021",
+      "data_inclusao": "16/06/2021",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "2752681",
+      "tipo": "Anexo",
+      "data": "18/06/2021",
+      "data_inclusao": "18/06/2021",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "2752695",
+      "tipo": "Anexo",
+      "data": "18/06/2021",
+      "data_inclusao": "18/06/2021",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "2752832",
+      "tipo": "Anexo",
+      "data": "18/06/2021",
+      "data_inclusao": "18/06/2021",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "2752836",
+      "tipo": "Anexo",
+      "data": "18/06/2021",
+      "data_inclusao": "18/06/2021",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "2752840",
+      "tipo": "Anexo",
+      "data": "18/06/2021",
+      "data_inclusao": "18/06/2021",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "2752845",
+      "tipo": "Anexo",
+      "data": "18/06/2021",
+      "data_inclusao": "18/06/2021",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "2752853",
+      "tipo": "Anexo",
+      "data": "18/06/2021",
+      "data_inclusao": "18/06/2021",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "2752857",
+      "tipo": "Anexo",
+      "data": "18/06/2021",
+      "data_inclusao": "18/06/2021",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "2752880",
+      "tipo": "Anexo",
+      "data": "18/06/2021",
+      "data_inclusao": "18/06/2021",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "2752941",
+      "tipo": "Anexo",
+      "data": "18/06/2021",
+      "data_inclusao": "18/06/2021",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "2753904",
+      "tipo": "Vídeo",
+      "data": "21/06/2021",
+      "data_inclusao": "21/06/2021",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "2753927",
+      "tipo": "Vídeo",
+      "data": "21/06/2021",
+      "data_inclusao": "21/06/2021",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "2860225",
+      "tipo": "Parecer Técnico 1614",
+      "data": "03/08/2021",
+      "data_inclusao": "03/08/2021",
+      "unidade": "ATEC - COPEL"
+    },
+    {
+      "documento": "2881780",
+      "tipo": "Despacho 347",
+      "data": "11/08/2021",
+      "data_inclusao": "11/08/2021",
+      "unidade": "COPEL"
+    },
+    {
+      "documento": "2672521",
+      "tipo": "Ofício 900",
+      "data": "11/08/2021",
+      "data_inclusao": "11/08/2021",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "2895665",
+      "tipo": "Ofício 3794",
+      "data": "20/08/2021",
+      "data_inclusao": "20/08/2021",
+      "unidade": "CNL"
+    },
+    {
+      "documento": "2905267",
+      "tipo": "E-mail",
+      "data": "20/08/2021",
+      "data_inclusao": "20/08/2021",
+      "unidade": "CNL"
+    },
+    {
+      "documento": "2906435",
+      "tipo": "Despacho 461",
+      "data": "23/08/2021",
+      "data_inclusao": "23/08/2021",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2908462",
+      "tipo": "Despacho 1059",
+      "data": "23/08/2021",
+      "data_inclusao": "23/08/2021",
+      "unidade": "DIVTEC IPHAN-CE"
+    },
+    {
+      "documento": "2908665",
+      "tipo": "Ofício 1242",
+      "data": "23/08/2021",
+      "data_inclusao": "23/08/2021",
+      "unidade": "IPHAN-CE"
+    },
+    {
+      "documento": "2910567",
+      "tipo": "E-mail",
+      "data": "24/08/2021",
+      "data_inclusao": "24/08/2021",
+      "unidade": "IPHAN-CE"
+    }
+  ],
+  "andamentos": [
+    {
+      "data_hora": "24/08/2021 10:45",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "24/08/2021 10:27",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo remetido pela unidade IPHAN-CE"
+    },
+    {
+      "data_hora": "23/08/2021 15:24",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "23/08/2021 15:14",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo remetido pela unidade DIVTEC IPHAN-CE"
+    },
+    {
+      "data_hora": "23/08/2021 15:02",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "23/08/2021 13:52",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo remetido pela unidade IPHAN-CE"
+    },
+    {
+      "data_hora": "23/08/2021 09:13",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "20/08/2021 15:37",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo remetido pela unidade CNL"
+    },
+    {
+      "data_hora": "12/08/2021 09:57",
+      "unidade": "CNL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "11/08/2021 17:54",
+      "unidade": "CNL",
+      "descricao": "Processo remetido pela unidade CNA"
+    },
+    {
+      "data_hora": "11/08/2021 16:13",
+      "unidade": "CNA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "11/08/2021 15:44",
+      "unidade": "CNA",
+      "descricao": "Processo remetido pela unidade COPEL"
+    },
+    {
+      "data_hora": "11/08/2021 15:13",
+      "unidade": "COPEL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "11/08/2021 14:10",
+      "unidade": "COPEL",
+      "descricao": "Processo remetido pela unidade CNA"
+    },
+    {
+      "data_hora": "09/08/2021 15:54",
+      "unidade": "COPEL",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "09/08/2021 15:40",
+      "unidade": "COPEL",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "06/08/2021 10:25",
+      "unidade": "CNA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "06/08/2021 09:59",
+      "unidade": "CNA",
+      "descricao": "Processo remetido pela unidade ATEC-CNA"
+    },
+    {
+      "data_hora": "06/08/2021 03:57",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "06/08/2021 03:57",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo remetido pela unidade COPEL"
+    },
+    {
+      "data_hora": "03/08/2021 20:19",
+      "unidade": "COPEL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "03/08/2021 20:18",
+      "unidade": "COPEL",
+      "descricao": "Processo remetido pela unidade ATEC-CNA"
+    },
+    {
+      "data_hora": "21/06/2021 09:45",
+      "unidade": "CNA",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "18/06/2021 15:25",
+      "unidade": "CNA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "17/06/2021 09:21",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "17/06/2021 09:20",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo remetido pela unidade COPEL"
+    },
+    {
+      "data_hora": "17/06/2021 09:19",
+      "unidade": "COPEL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "16/06/2021 19:30",
+      "unidade": "COPEL",
+      "descricao": "Processo remetido pela unidade CNA"
+    },
+    {
+      "data_hora": "13/05/2021 13:10",
+      "unidade": "CNA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "13/05/2021 11:30",
+      "unidade": "CNA",
+      "descricao": "Processo remetido pela unidade ATEC-CNA"
+    },
+    {
+      "data_hora": "13/05/2021 11:29",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Para providências do GAB/CNA"
+    },
+    {
+      "data_hora": "13/05/2021 11:12",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "13/05/2021 11:12",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo remetido pela unidade COPEL"
+    },
+    {
+      "data_hora": "22/04/2021 09:28",
+      "unidade": "COPEL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "22/04/2021 09:28",
+      "unidade": "COPEL",
+      "descricao": "Processo remetido pela unidade ATEC-CNA"
+    },
+    {
+      "data_hora": "26/03/2021 13:18",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "26/03/2021 11:09",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo remetido pela unidade CNA"
+    },
+    {
+      "data_hora": "26/03/2021 10:09",
+      "unidade": "CNA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "26/03/2021 10:06",
+      "unidade": "CNA",
+      "descricao": "Processo remetido pela unidade CNL"
+    },
+    {
+      "data_hora": "09/03/2021 09:25",
+      "unidade": "CNL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "08/03/2021 21:12",
+      "unidade": "CNL",
+      "descricao": "Processo remetido pela unidade IPHAN-CE"
+    },
+    {
+      "data_hora": "08/03/2021 20:04",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "08/03/2021 19:09",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo remetido pela unidade DIVTEC IPHAN-CE"
+    },
+    {
+      "data_hora": "15/01/2021 14:50",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "15/01/2021 14:34",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo remetido pela unidade IPHAN-CE"
+    },
+    {
+      "data_hora": "15/01/2021 13:27",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "15/01/2021 13:08",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo remetido pela unidade DIVTEC IPHAN-CE"
+    },
+    {
+      "data_hora": "23/12/2020 13:12",
+      "unidade": "IPHAN-CE",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "23/12/2020 13:12",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "23/12/2020 11:09",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "23/12/2020 11:09",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo remetido pela unidade DIVTEC IPHAN-CE"
+    },
+    {
+      "data_hora": "08/12/2020 15:37",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "08/12/2020 15:36",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo remetido pela unidade IPHAN-CE"
+    },
+    {
+      "data_hora": "20/11/2020 17:00",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "20/11/2020 15:56",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo remetido pela unidade DIVTEC IPHAN-CE"
+    },
+    {
+      "data_hora": "09/09/2020 17:54",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "09/09/2020 17:36",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo remetido pela unidade IPHAN-CE"
+    },
+    {
+      "data_hora": "09/09/2020 17:10",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "08/09/2020 17:31",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo remetido pela unidade CNA"
+    },
+    {
+      "data_hora": "08/09/2020 14:18",
+      "unidade": "CNA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "08/09/2020 14:01",
+      "unidade": "CNA",
+      "descricao": "Processo remetido pela unidade ATEC-CNA"
+    },
+    {
+      "data_hora": "08/09/2020 14:00",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Para providências do GAB/CNA"
+    },
+    {
+      "data_hora": "08/09/2020 13:46",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "08/09/2020 13:46",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo remetido pela unidade COPEL"
+    },
+    {
+      "data_hora": "03/09/2020 15:07",
+      "unidade": "COPEL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "03/09/2020 15:07",
+      "unidade": "COPEL",
+      "descricao": "Processo remetido pela unidade ATEC-CNA"
+    },
+    {
+      "data_hora": "31/08/2020 17:25",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "31/08/2020 17:01",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo remetido pela unidade CNA"
+    },
+    {
+      "data_hora": "31/08/2020 09:23",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "31/08/2020 09:01",
+      "unidade": "CNA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "31/08/2020 09:00",
+      "unidade": "CNA",
+      "descricao": "Processo remetido pela unidade ATEC-CNA"
+    },
+    {
+      "data_hora": "24/08/2020 08:18",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "24/08/2020 08:18",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo remetido pela unidade COPEL"
+    },
+    {
+      "data_hora": "21/08/2020 11:10",
+      "unidade": "COPEL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "21/08/2020 11:09",
+      "unidade": "COPEL",
+      "descricao": "Processo remetido pela unidade ATEC-CNA"
+    },
+    {
+      "data_hora": "21/08/2020 11:04",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "21/08/2020 11:04",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo remetido pela unidade COPEL"
+    },
+    {
+      "data_hora": "20/08/2020 11:14",
+      "unidade": "COPEL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "20/08/2020 11:14",
+      "unidade": "COPEL",
+      "descricao": "Processo remetido pela unidade ATEC-CNA"
+    },
+    {
+      "data_hora": "05/08/2020 16:31",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "05/08/2020 16:01",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo remetido pela unidade CNA"
+    },
+    {
+      "data_hora": "05/08/2020 15:25",
+      "unidade": "CNA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "05/08/2020 14:45",
+      "unidade": "CNA",
+      "descricao": "Processo remetido pela unidade IPHAN-CE"
+    },
+    {
+      "data_hora": "04/08/2020 14:08",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "04/08/2020 14:02",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo remetido pela unidade DIVTEC IPHAN-CE"
+    },
+    {
+      "data_hora": "03/08/2020 19:10",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "03/08/2020 15:26",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo remetido pela unidade IPHAN-CE"
+    },
+    {
+      "data_hora": "03/08/2020 10:04",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "30/07/2020 16:38",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo remetido pela unidade DIVTEC IPHAN-CE"
+    },
+    {
+      "data_hora": "17/06/2020 15:40",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "17/06/2020 15:00",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo remetido pela unidade IPHAN-CE"
+    },
+    {
+      "data_hora": "17/06/2020 11:51",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "16/06/2020 17:01",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo remetido pela unidade DIVTEC IPHAN-CE"
+    },
+    {
+      "data_hora": "04/03/2020 11:56",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "04/03/2020 10:53",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo remetido pela unidade IPHAN-CE"
+    },
+    {
+      "data_hora": "04/03/2020 10:46",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "03/03/2020 17:41",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo remetido pela unidade CNL"
+    },
+    {
+      "data_hora": "28/02/2020 10:50",
+      "unidade": "IPHAN-CE",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "28/02/2020 10:49",
+      "unidade": "IPHAN-CE",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "27/02/2020 14:33",
+      "unidade": "CNL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "27/02/2020 14:33",
+      "unidade": "CNL",
+      "descricao": "Processo remetido pela unidade DIVTEC IPHAN-CE"
+    },
+    {
+      "data_hora": "27/02/2020 14:32",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "27/02/2020 14:01",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo remetido pela unidade IPHAN-CE"
+    },
+    {
+      "data_hora": "26/02/2020 14:48",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "21/02/2020 17:32",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo remetido pela unidade DIVTEC IPHAN-CE"
+    },
+    {
+      "data_hora": "21/02/2020 10:29",
+      "unidade": "ETS-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "21/02/2020 10:15",
+      "unidade": "ETS-CE",
+      "descricao": "Processo remetido pela unidade DIVTEC IPHAN-CE"
+    },
+    {
+      "data_hora": "27/12/2019 12:17",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "27/12/2019 08:55",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo remetido pela unidade IPHAN-CE"
+    },
+    {
+      "data_hora": "26/12/2019 14:37",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "26/12/2019 14:25",
+      "unidade": "IPHAN-CE",
+      "descricao": "Processo remetido pela unidade DIVTEC IPHAN-CE"
+    },
+    {
+      "data_hora": "12/12/2019 15:51",
+      "unidade": "DIVTEC IPHAN-CE",
+      "descricao": "Processo público gerado"
+    }
+  ],
+  "initialized": true,
+  "baseline_at": "2026-08-26T17:26:07+00:00",
+  "last_change_at": null
+}
