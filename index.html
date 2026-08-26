@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#111827">
-  <meta name="description" content="Painel de monitoramento de alterações em processo público do SEI/IPHAN.">
+  <meta name="description" content="Painel de monitoramento de múltiplos processos públicos do SEI/IPHAN.">
   <title>Monitor SEI/IPHAN</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,85 +14,29 @@
 <body>
   <div class="shell">
     <header class="topbar">
-      <a class="brand" href="#" aria-label="Monitor SEI/IPHAN">
+      <a class="brand" href="./" aria-label="Monitor SEI/IPHAN">
         <span class="brand-mark" aria-hidden="true">S</span>
         <span>
           <strong>Monitor SEI/IPHAN</strong>
-          <small>Acompanhamento automatizado de processo</small>
+          <small>Acompanhamento automatizado de processos</small>
         </span>
       </a>
-      <div class="status-pill" id="workflow-status">
+      <div class="status-pill neutral" id="global-status">
         <span class="status-dot"></span>
-        <span>Consultando status…</span>
+        <span>Carregando estado…</span>
       </div>
     </header>
 
-    <main>
-      <section class="hero">
-        <div>
-          <p class="eyebrow">PROCESSO MONITORADO</p>
-          <h1 id="process-number">01502.000270/2020-84</h1>
-          <p class="hero-copy">O painel compara, a cada execução, as tabelas públicas de Protocolos e Andamentos do SEI/IPHAN e registra somente alterações semanticamente relevantes.</p>
-        </div>
-        <a id="sei-link" class="primary-button" target="_blank" rel="noopener noreferrer">Abrir no SEI/IPHAN <span aria-hidden="true">↗</span></a>
-      </section>
-
-      <section class="metrics" aria-label="Resumo do processo">
-        <article class="metric-card">
-          <span class="metric-label">Protocolos</span>
-          <strong class="metric-value" id="protocol-count">—</strong>
-          <span class="metric-help">documentos/protocolos visíveis</span>
-        </article>
-        <article class="metric-card">
-          <span class="metric-label">Andamentos</span>
-          <strong class="metric-value" id="movement-count">—</strong>
-          <span class="metric-help">movimentações processuais</span>
-        </article>
-        <article class="metric-card">
-          <span class="metric-label">Última alteração</span>
-          <strong class="metric-date" id="last-change">Sem alteração registrada</strong>
-          <span class="metric-help">detectada pelo monitor</span>
-        </article>
-        <article class="metric-card">
-          <span class="metric-label">Última verificação</span>
-          <strong class="metric-date" id="last-check">Consultando…</strong>
-          <span class="metric-help">execução do GitHub Actions</span>
-        </article>
-      </section>
-
-      <section class="content-grid">
-        <div class="panel">
-          <div class="panel-heading">
-            <div>
-              <p class="eyebrow">HISTÓRICO</p>
-              <h2>Alterações detectadas</h2>
-            </div>
-            <span class="counter" id="history-count">0 registros</span>
-          </div>
-          <div id="timeline" class="timeline" aria-live="polite">
-            <div class="empty-state">Carregando histórico…</div>
-          </div>
-        </div>
-
-        <aside class="side-stack">
-          <section class="panel compact">
-            <p class="eyebrow">ÚLTIMOS DOCUMENTOS</p>
-            <h2>Protocolos recentes</h2>
-            <div id="latest-protocols" class="record-list"></div>
-          </section>
-
-          <section class="panel compact">
-            <p class="eyebrow">ÚLTIMAS MOVIMENTAÇÕES</p>
-            <h2>Andamentos recentes</h2>
-            <div id="latest-movements" class="record-list"></div>
-          </section>
-        </aside>
+    <main id="app" aria-live="polite">
+      <section class="loading-panel">
+        <div class="spinner" aria-hidden="true"></div>
+        <p>Carregando dados do monitor…</p>
       </section>
     </main>
 
     <footer>
       <span>Monitoramento automatizado • GitHub Actions + GitHub Pages</span>
-      <span>Sem armazenamento de conteúdo restrito dos documentos.</span>
+      <span>Somente dados disponibilizados publicamente na Pesquisa Processual.</span>
     </footer>
   </div>
   <script src="js/app.js" defer></script>
