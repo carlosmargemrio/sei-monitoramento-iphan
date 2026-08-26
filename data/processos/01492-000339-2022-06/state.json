@@ -1,0 +1,5469 @@
+{
+  "process_id": "01492-000339-2022-06",
+  "process_number": "01492.000339/2022-06",
+  "process_name": "Santa Lúcia-PA",
+  "group": "Santa Lúcia-PA",
+  "source_url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7rpiEnX8V1EiwyFG_cvH5804sHUiYI4xuF8YuS0kh1k",
+  "active": true,
+  "last_attempt_at": "2026-08-26T17:14:08+00:00",
+  "last_success_at": "2026-08-26T17:14:08+00:00",
+  "last_error_at": null,
+  "last_error": null,
+  "consecutive_failures": 0,
+  "counts": {
+    "protocolos": 425,
+    "andamentos": 494
+  },
+  "protocolos": [
+    {
+      "documento": "3755144",
+      "tipo": "E-mail",
+      "data": "16/08/2022",
+      "data_inclusao": "16/08/2022",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "3755162",
+      "tipo": "Ofício",
+      "data": "16/08/2022",
+      "data_inclusao": "16/08/2022",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "3755214",
+      "tipo": "Ficha de Caracterização de Atividade",
+      "data": "16/08/2022",
+      "data_inclusao": "16/08/2022",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "3755229",
+      "tipo": "Anexo",
+      "data": "16/08/2022",
+      "data_inclusao": "16/08/2022",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "3755261",
+      "tipo": "Anexo",
+      "data": "16/08/2022",
+      "data_inclusao": "16/08/2022",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "3755383",
+      "tipo": "E-mail",
+      "data": "16/08/2022",
+      "data_inclusao": "16/08/2022",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "3755690",
+      "tipo": "E-mail",
+      "data": "16/08/2022",
+      "data_inclusao": "16/08/2022",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "3756830",
+      "tipo": "Parecer - Ficha de Caracterização de Atividade FCA 88",
+      "data": "17/08/2022",
+      "data_inclusao": "17/08/2022",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "3757759",
+      "tipo": "Parecer - Ficha de Caracterização de Atividade FCA 91",
+      "data": "17/08/2022",
+      "data_inclusao": "17/08/2022",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "3783295",
+      "tipo": "Parecer - Ficha de Caracterização de Atividade FCA 99",
+      "data": "26/08/2022",
+      "data_inclusao": "26/08/2022",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "3785005",
+      "tipo": "Termo de Referência Específico 40",
+      "data": "30/08/2022",
+      "data_inclusao": "30/08/2022",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "3785024",
+      "tipo": "Ofício 1137",
+      "data": "29/08/2022",
+      "data_inclusao": "29/08/2022",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "3789526",
+      "tipo": "Ofício 1079",
+      "data": "30/08/2022",
+      "data_inclusao": "30/08/2022",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "3792741",
+      "tipo": "E-mail",
+      "data": "30/08/2022",
+      "data_inclusao": "30/08/2022",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "3799184",
+      "tipo": "Ofício 1099",
+      "data": "01/09/2022",
+      "data_inclusao": "01/09/2022",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "3799945",
+      "tipo": "E-mail",
+      "data": "01/09/2022",
+      "data_inclusao": "01/09/2022",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "3802619",
+      "tipo": "Confirmação",
+      "data": "02/09/2022",
+      "data_inclusao": "02/09/2022",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "3953364",
+      "tipo": "E-mail",
+      "data": "03/11/2022",
+      "data_inclusao": "03/11/2022",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "3953996",
+      "tipo": "Ofício",
+      "data": "03/11/2022",
+      "data_inclusao": "03/11/2022",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "3954063",
+      "tipo": "Projeto",
+      "data": "03/11/2022",
+      "data_inclusao": "03/11/2022",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "3954150",
+      "tipo": "Conteúdo de Mídia",
+      "data": "03/11/2022",
+      "data_inclusao": "03/11/2022",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "3955530",
+      "tipo": "Conteúdo de Mídia",
+      "data": "03/11/2022",
+      "data_inclusao": "03/11/2022",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "3956079",
+      "tipo": "Despacho 1034",
+      "data": "04/11/2022",
+      "data_inclusao": "04/11/2022",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "3957808",
+      "tipo": "Despacho 1700",
+      "data": "04/11/2022",
+      "data_inclusao": "04/11/2022",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "4040773",
+      "tipo": "Ofício 634",
+      "data": "12/12/2022",
+      "data_inclusao": "12/12/2022",
+      "unidade": "DIVGEO"
+    },
+    {
+      "documento": "4040918",
+      "tipo": "E-mail",
+      "data": "12/12/2022",
+      "data_inclusao": "12/12/2022",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4040922",
+      "tipo": "Ofício",
+      "data": "12/12/2022",
+      "data_inclusao": "12/12/2022",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4042205",
+      "tipo": "Despacho 1154",
+      "data": "12/12/2022",
+      "data_inclusao": "12/12/2022",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4043715",
+      "tipo": "Ofício 1550",
+      "data": "12/12/2022",
+      "data_inclusao": "12/12/2022",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "4071231",
+      "tipo": "Despacho 1891",
+      "data": "22/12/2022",
+      "data_inclusao": "22/12/2022",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "4105786",
+      "tipo": "Ofício 24",
+      "data": "13/01/2023",
+      "data_inclusao": "13/01/2023",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "4114886",
+      "tipo": "E-mail",
+      "data": "16/01/2023",
+      "data_inclusao": "16/01/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4114896",
+      "tipo": "Ofício",
+      "data": "16/01/2023",
+      "data_inclusao": "16/01/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4116076",
+      "tipo": "Despacho 38",
+      "data": "16/01/2023",
+      "data_inclusao": "16/01/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4117100",
+      "tipo": "Ofício 75",
+      "data": "16/01/2023",
+      "data_inclusao": "16/01/2023",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "4168775",
+      "tipo": "E-mail",
+      "data": "07/02/2023",
+      "data_inclusao": "07/02/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4168789",
+      "tipo": "Ofício",
+      "data": "07/02/2023",
+      "data_inclusao": "07/02/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4168879",
+      "tipo": "Despacho 99",
+      "data": "07/02/2023",
+      "data_inclusao": "07/02/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4118548",
+      "tipo": "Parecer - Projeto de Avaliação de Impacto Arqueol 1",
+      "data": "17/02/2023",
+      "data_inclusao": "17/02/2023",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "4195872",
+      "tipo": "Ofício 153",
+      "data": "17/02/2023",
+      "data_inclusao": "17/02/2023",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "4202177",
+      "tipo": "Ofício 153",
+      "data": "27/02/2023",
+      "data_inclusao": "27/02/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4210036",
+      "tipo": "E-mail",
+      "data": "27/02/2023",
+      "data_inclusao": "27/02/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4217769",
+      "tipo": "Confirmação",
+      "data": "28/02/2023",
+      "data_inclusao": "02/03/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4230087",
+      "tipo": "E-mail",
+      "data": "07/03/2023",
+      "data_inclusao": "07/03/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4230155",
+      "tipo": "Ofício",
+      "data": "07/03/2023",
+      "data_inclusao": "07/03/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4230166",
+      "tipo": "Conteúdo de Mídia",
+      "data": "07/03/2023",
+      "data_inclusao": "07/03/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4230200",
+      "tipo": "Conteúdo de Mídia",
+      "data": "07/03/2023",
+      "data_inclusao": "07/03/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4230457",
+      "tipo": "Despacho 161",
+      "data": "07/03/2023",
+      "data_inclusao": "07/03/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4232421",
+      "tipo": "Ofício 222",
+      "data": "13/03/2023",
+      "data_inclusao": "13/03/2023",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "4320463",
+      "tipo": "E-mail",
+      "data": "11/04/2023",
+      "data_inclusao": "11/04/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4320557",
+      "tipo": "Ofício",
+      "data": "11/04/2023",
+      "data_inclusao": "11/04/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4321162",
+      "tipo": "Despacho 260",
+      "data": "11/04/2023",
+      "data_inclusao": "11/04/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4383968",
+      "tipo": "E-mail",
+      "data": "08/05/2023",
+      "data_inclusao": "08/05/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4383984",
+      "tipo": "Ofício",
+      "data": "08/05/2023",
+      "data_inclusao": "08/05/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4386451",
+      "tipo": "Despacho 345",
+      "data": "08/05/2023",
+      "data_inclusao": "08/05/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4388436",
+      "tipo": "E-mail",
+      "data": "09/05/2023",
+      "data_inclusao": "09/05/2023",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "4389140",
+      "tipo": "E-mail",
+      "data": "09/05/2023",
+      "data_inclusao": "09/05/2023",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "4394457",
+      "tipo": "Parecer - Projeto de Avaliação de Impacto Arqueol 16",
+      "data": "10/05/2023",
+      "data_inclusao": "10/05/2023",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "4395058",
+      "tipo": "Ofício 534",
+      "data": "10/05/2023",
+      "data_inclusao": "10/05/2023",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "4407952",
+      "tipo": "Ofício 420",
+      "data": "16/05/2023",
+      "data_inclusao": "16/05/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4416699",
+      "tipo": "Despacho 469",
+      "data": "19/05/2023",
+      "data_inclusao": "19/05/2023",
+      "unidade": "ATEC - COPEL"
+    },
+    {
+      "documento": "4420363",
+      "tipo": "Portaria",
+      "data": "22/05/2023",
+      "data_inclusao": "22/05/2023",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "4425639",
+      "tipo": "Ofício 456",
+      "data": "23/05/2023",
+      "data_inclusao": "23/05/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4431560",
+      "tipo": "E-mail",
+      "data": "25/05/2023",
+      "data_inclusao": "25/05/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4441484",
+      "tipo": "E-mail",
+      "data": "30/05/2023",
+      "data_inclusao": "30/05/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4441509",
+      "tipo": "E-mail",
+      "data": "30/05/2023",
+      "data_inclusao": "30/05/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4448400",
+      "tipo": "E-mail",
+      "data": "31/05/2023",
+      "data_inclusao": "31/05/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4451808",
+      "tipo": "Confirmação",
+      "data": "01/06/2023",
+      "data_inclusao": "01/06/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4451821",
+      "tipo": "Confirmação",
+      "data": "01/06/2023",
+      "data_inclusao": "01/06/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4453835",
+      "tipo": "E-mail",
+      "data": "02/06/2023",
+      "data_inclusao": "02/06/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4453892",
+      "tipo": "Ofício",
+      "data": "02/06/2023",
+      "data_inclusao": "02/06/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4453904",
+      "tipo": "Anexo",
+      "data": "02/06/2023",
+      "data_inclusao": "02/06/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4454354",
+      "tipo": "Despacho 465",
+      "data": "02/06/2023",
+      "data_inclusao": "02/06/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4455103",
+      "tipo": "Ofício 675",
+      "data": "02/06/2023",
+      "data_inclusao": "02/06/2023",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "4483396",
+      "tipo": "Ofício 571",
+      "data": "15/06/2023",
+      "data_inclusao": "15/06/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4490777",
+      "tipo": "E-mail",
+      "data": "16/06/2023",
+      "data_inclusao": "16/06/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4506600",
+      "tipo": "Confirmação",
+      "data": "16/06/2023",
+      "data_inclusao": "23/06/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4506756",
+      "tipo": "E-mail",
+      "data": "23/06/2023",
+      "data_inclusao": "23/06/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4506932",
+      "tipo": "E-mail",
+      "data": "23/06/2023",
+      "data_inclusao": "23/06/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4507456",
+      "tipo": "Confirmação",
+      "data": "23/06/2023",
+      "data_inclusao": "23/06/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4588850",
+      "tipo": "E-mail",
+      "data": "25/07/2023",
+      "data_inclusao": "25/07/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4588948",
+      "tipo": "Ofício",
+      "data": "25/07/2023",
+      "data_inclusao": "25/07/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4588977",
+      "tipo": "Anexo",
+      "data": "25/07/2023",
+      "data_inclusao": "25/07/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4589001",
+      "tipo": "Anexo",
+      "data": "25/07/2023",
+      "data_inclusao": "25/07/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4589009",
+      "tipo": "Anexo",
+      "data": "25/07/2023",
+      "data_inclusao": "25/07/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4589020",
+      "tipo": "Anexo",
+      "data": "25/07/2023",
+      "data_inclusao": "25/07/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4589042",
+      "tipo": "Anexo",
+      "data": "25/07/2023",
+      "data_inclusao": "25/07/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4589056",
+      "tipo": "Anexo",
+      "data": "25/07/2023",
+      "data_inclusao": "25/07/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4589093",
+      "tipo": "Anexo",
+      "data": "25/07/2023",
+      "data_inclusao": "25/07/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4589110",
+      "tipo": "Anexo",
+      "data": "25/07/2023",
+      "data_inclusao": "25/07/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4589120",
+      "tipo": "Anexo",
+      "data": "25/07/2023",
+      "data_inclusao": "25/07/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4589133",
+      "tipo": "Anexo",
+      "data": "25/07/2023",
+      "data_inclusao": "25/07/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4589148",
+      "tipo": "Anexo",
+      "data": "25/07/2023",
+      "data_inclusao": "25/07/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4589161",
+      "tipo": "Anexo",
+      "data": "25/07/2023",
+      "data_inclusao": "25/07/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4596401",
+      "tipo": "Despacho 692",
+      "data": "31/07/2023",
+      "data_inclusao": "31/07/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4601531",
+      "tipo": "Ofício 1038",
+      "data": "11/08/2023",
+      "data_inclusao": "11/08/2023",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "4675433",
+      "tipo": "E-mail",
+      "data": "28/08/2023",
+      "data_inclusao": "28/08/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4675437",
+      "tipo": "Ofício",
+      "data": "28/08/2023",
+      "data_inclusao": "28/08/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4676533",
+      "tipo": "Despacho 815",
+      "data": "29/08/2023",
+      "data_inclusao": "29/08/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4748339",
+      "tipo": "E-mail",
+      "data": "25/09/2023",
+      "data_inclusao": "25/09/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4748348",
+      "tipo": "Ofício",
+      "data": "25/09/2023",
+      "data_inclusao": "25/09/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4748371",
+      "tipo": "Despacho 932",
+      "data": "25/09/2023",
+      "data_inclusao": "25/09/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4746266",
+      "tipo": "Parecer - Relatório de Pesquisa Arqueológica 50",
+      "data": "10/10/2023",
+      "data_inclusao": "10/10/2023",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "4807846",
+      "tipo": "E-mail",
+      "data": "18/10/2023",
+      "data_inclusao": "18/10/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4807853",
+      "tipo": "Ofício",
+      "data": "18/10/2023",
+      "data_inclusao": "18/10/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4810462",
+      "tipo": "Despacho 1028",
+      "data": "18/10/2023",
+      "data_inclusao": "18/10/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4811514",
+      "tipo": "Ofício 1505",
+      "data": "18/10/2023",
+      "data_inclusao": "18/10/2023",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "4834929",
+      "tipo": "Ofício 1210",
+      "data": "27/10/2023",
+      "data_inclusao": "27/10/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4838866",
+      "tipo": "E-mail",
+      "data": "27/10/2023",
+      "data_inclusao": "27/10/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4843858",
+      "tipo": "E-mail",
+      "data": "31/10/2023",
+      "data_inclusao": "31/10/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4843872",
+      "tipo": "E-mail",
+      "data": "31/10/2023",
+      "data_inclusao": "31/10/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4843898",
+      "tipo": "Confirmação",
+      "data": "31/10/2023",
+      "data_inclusao": "31/10/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4858578",
+      "tipo": "E-mail",
+      "data": "06/11/2023",
+      "data_inclusao": "06/11/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4858585",
+      "tipo": "Ofício",
+      "data": "06/11/2023",
+      "data_inclusao": "06/11/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4858609",
+      "tipo": "Anexo",
+      "data": "06/11/2023",
+      "data_inclusao": "06/11/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4866553",
+      "tipo": "E-mail",
+      "data": "08/11/2023",
+      "data_inclusao": "08/11/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4866742",
+      "tipo": "Despacho 1097",
+      "data": "08/11/2023",
+      "data_inclusao": "08/11/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4867513",
+      "tipo": "Ofício 1600",
+      "data": "08/11/2023",
+      "data_inclusao": "08/11/2023",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "4948700",
+      "tipo": "E-mail",
+      "data": "07/12/2023",
+      "data_inclusao": "07/12/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4948911",
+      "tipo": "Ofício",
+      "data": "07/12/2023",
+      "data_inclusao": "07/12/2023",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "4965194",
+      "tipo": "Despacho 1220",
+      "data": "14/12/2023",
+      "data_inclusao": "14/12/2023",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "4974205",
+      "tipo": "Parecer - Relatório de Pesquisa Arqueológica 64",
+      "data": "18/12/2023",
+      "data_inclusao": "18/12/2023",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "4984372",
+      "tipo": "Ofício 1803",
+      "data": "21/12/2023",
+      "data_inclusao": "21/12/2023",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "5007981",
+      "tipo": "Ofício 5",
+      "data": "04/01/2024",
+      "data_inclusao": "04/01/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5008489",
+      "tipo": "Ofício 6",
+      "data": "04/01/2024",
+      "data_inclusao": "04/01/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5008640",
+      "tipo": "E-mail",
+      "data": "04/01/2024",
+      "data_inclusao": "04/01/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5020256",
+      "tipo": "E-mail",
+      "data": "10/01/2024",
+      "data_inclusao": "10/01/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5020299",
+      "tipo": "Ofício",
+      "data": "09/01/2024",
+      "data_inclusao": "10/01/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5020303",
+      "tipo": "Anexo",
+      "data": "10/01/2024",
+      "data_inclusao": "10/01/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5020312",
+      "tipo": "Anexo",
+      "data": "10/01/2024",
+      "data_inclusao": "10/01/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5020319",
+      "tipo": "Anexo",
+      "data": "10/01/2024",
+      "data_inclusao": "10/01/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5020325",
+      "tipo": "Anexo",
+      "data": "10/01/2024",
+      "data_inclusao": "10/01/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5020329",
+      "tipo": "Anexo",
+      "data": "10/01/2024",
+      "data_inclusao": "10/01/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5020353",
+      "tipo": "Anexo",
+      "data": "10/01/2024",
+      "data_inclusao": "10/01/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5020442",
+      "tipo": "Anexo",
+      "data": "10/01/2024",
+      "data_inclusao": "10/01/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5020489",
+      "tipo": "Anexo",
+      "data": "10/01/2024",
+      "data_inclusao": "10/01/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5020513",
+      "tipo": "Anexo",
+      "data": "10/01/2024",
+      "data_inclusao": "10/01/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5020523",
+      "tipo": "Anexo",
+      "data": "10/01/2024",
+      "data_inclusao": "10/01/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5020547",
+      "tipo": "Anexo",
+      "data": "10/01/2024",
+      "data_inclusao": "10/01/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5020627",
+      "tipo": "Anexo",
+      "data": "10/01/2024",
+      "data_inclusao": "10/01/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5020677",
+      "tipo": "Anexo",
+      "data": "10/01/2024",
+      "data_inclusao": "10/01/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5020736",
+      "tipo": "Anexo",
+      "data": "10/01/2024",
+      "data_inclusao": "10/01/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5021118",
+      "tipo": "Despacho 38",
+      "data": "10/01/2024",
+      "data_inclusao": "10/01/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5021327",
+      "tipo": "Ofício 49",
+      "data": "16/02/2024",
+      "data_inclusao": "16/02/2024",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "5164705",
+      "tipo": "E-mail",
+      "data": "11/03/2024",
+      "data_inclusao": "11/03/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5164725",
+      "tipo": "Ofício",
+      "data": "11/03/2024",
+      "data_inclusao": "11/03/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5165798",
+      "tipo": "Despacho 286",
+      "data": "11/03/2024",
+      "data_inclusao": "11/03/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5166833",
+      "tipo": "Parecer - Programa de Gestão do Patr Arqueológico 3",
+      "data": "12/03/2024",
+      "data_inclusao": "12/03/2024",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "5190313",
+      "tipo": "Ofício 488",
+      "data": "19/03/2024",
+      "data_inclusao": "19/03/2024",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "5200115",
+      "tipo": "Ofício 326",
+      "data": "22/03/2024",
+      "data_inclusao": "22/03/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5231706",
+      "tipo": "Parecer Técnico 587",
+      "data": "04/04/2024",
+      "data_inclusao": "04/04/2024",
+      "unidade": "COIR"
+    },
+    {
+      "documento": "5240697",
+      "tipo": "Portaria",
+      "data": "05/04/2024",
+      "data_inclusao": "05/04/2024",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "5243279",
+      "tipo": "Ofício 390",
+      "data": "09/04/2024",
+      "data_inclusao": "09/04/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5249346",
+      "tipo": "E-mail",
+      "data": "09/04/2024",
+      "data_inclusao": "09/04/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5287349",
+      "tipo": "Confirmação",
+      "data": "09/04/2024",
+      "data_inclusao": "22/04/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5395925",
+      "tipo": "E-mail",
+      "data": "04/06/2024",
+      "data_inclusao": "04/06/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5395953",
+      "tipo": "Ofício",
+      "data": "04/06/2024",
+      "data_inclusao": "04/06/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5395974",
+      "tipo": "Programa",
+      "data": "04/06/2024",
+      "data_inclusao": "04/06/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5395986",
+      "tipo": "Conteúdo de Mídia",
+      "data": "04/06/2024",
+      "data_inclusao": "04/06/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5398721",
+      "tipo": "Despacho 644",
+      "data": "04/06/2024",
+      "data_inclusao": "04/06/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5399138",
+      "tipo": "Ofício 940",
+      "data": "05/06/2024",
+      "data_inclusao": "05/06/2024",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "5492962",
+      "tipo": "Despacho 329",
+      "data": "10/07/2024",
+      "data_inclusao": "10/07/2024",
+      "unidade": "CGINF"
+    },
+    {
+      "documento": "5498839",
+      "tipo": "Ofício 1438",
+      "data": "10/07/2024",
+      "data_inclusao": "10/07/2024",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "5506054",
+      "tipo": "Ofício 837",
+      "data": "15/07/2024",
+      "data_inclusao": "15/07/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5506077",
+      "tipo": "Despacho 829",
+      "data": "15/07/2024",
+      "data_inclusao": "15/07/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5506146",
+      "tipo": "Despacho 496",
+      "data": "12/07/2024",
+      "data_inclusao": "12/07/2024",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "5510579",
+      "tipo": "E-mail",
+      "data": "16/07/2024",
+      "data_inclusao": "16/07/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5514350",
+      "tipo": "Confirmação",
+      "data": "17/07/2024",
+      "data_inclusao": "17/07/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5519801",
+      "tipo": "E-mail",
+      "data": "18/07/2024",
+      "data_inclusao": "18/07/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5519820",
+      "tipo": "Anexo",
+      "data": "18/07/2024",
+      "data_inclusao": "18/07/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5519838",
+      "tipo": "Anexo",
+      "data": "18/07/2024",
+      "data_inclusao": "18/07/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5519861",
+      "tipo": "Anexo",
+      "data": "18/07/2024",
+      "data_inclusao": "18/07/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5520406",
+      "tipo": "Despacho 864",
+      "data": "18/07/2024",
+      "data_inclusao": "18/07/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5543267",
+      "tipo": "Ofício 1270",
+      "data": "29/07/2024",
+      "data_inclusao": "29/07/2024",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "5563378",
+      "tipo": "E-mail",
+      "data": "05/08/2024",
+      "data_inclusao": "05/08/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5563384",
+      "tipo": "Ofício",
+      "data": "05/08/2024",
+      "data_inclusao": "05/08/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5564432",
+      "tipo": "Despacho 942",
+      "data": "05/08/2024",
+      "data_inclusao": "05/08/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5603813",
+      "tipo": "E-mail",
+      "data": "19/08/2024",
+      "data_inclusao": "19/08/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5603820",
+      "tipo": "Ofício",
+      "data": "19/08/2024",
+      "data_inclusao": "19/08/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5624960",
+      "tipo": "Despacho 1034",
+      "data": "27/08/2024",
+      "data_inclusao": "27/08/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5706148",
+      "tipo": "Ofício 1677",
+      "data": "23/09/2024",
+      "data_inclusao": "23/09/2024",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "5712337",
+      "tipo": "E-mail",
+      "data": "25/09/2024",
+      "data_inclusao": "25/09/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5712362",
+      "tipo": "Ofício",
+      "data": "25/09/2024",
+      "data_inclusao": "25/09/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5713082",
+      "tipo": "Despacho 1200",
+      "data": "26/09/2024",
+      "data_inclusao": "26/09/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5727495",
+      "tipo": "E-mail",
+      "data": "01/10/2024",
+      "data_inclusao": "01/10/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5727521",
+      "tipo": "Ofício",
+      "data": "01/10/2024",
+      "data_inclusao": "01/10/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5741102",
+      "tipo": "Parecer - Relatório de Pesquisa Arqueológica 42",
+      "data": "04/10/2024",
+      "data_inclusao": "04/10/2024",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "5741689",
+      "tipo": "Ofício 1762",
+      "data": "04/10/2024",
+      "data_inclusao": "04/10/2024",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "5749964",
+      "tipo": "Ofício 1295",
+      "data": "09/10/2024",
+      "data_inclusao": "09/10/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5753604",
+      "tipo": "E-mail",
+      "data": "09/10/2024",
+      "data_inclusao": "09/10/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5761283",
+      "tipo": "E-mail",
+      "data": "11/10/2024",
+      "data_inclusao": "11/10/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5761298",
+      "tipo": "Ofício",
+      "data": "11/10/2024",
+      "data_inclusao": "11/10/2024",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "5761340",
+      "tipo": "Despacho 1298",
+      "data": "11/10/2024",
+      "data_inclusao": "11/10/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5762415",
+      "tipo": "Ofício 1824",
+      "data": "11/10/2024",
+      "data_inclusao": "11/10/2024",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "5855355",
+      "tipo": "Despacho 936",
+      "data": "13/11/2024",
+      "data_inclusao": "13/11/2024",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "5855566",
+      "tipo": "Ofício 2073",
+      "data": "13/11/2024",
+      "data_inclusao": "13/11/2024",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "5875495",
+      "tipo": "Ofício 1541",
+      "data": "25/11/2024",
+      "data_inclusao": "25/11/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "5884890",
+      "tipo": "E-mail",
+      "data": "27/11/2024",
+      "data_inclusao": "27/11/2024",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "6609804",
+      "tipo": "E-mail",
+      "data": "21/08/2025",
+      "data_inclusao": "21/08/2025",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "6609814",
+      "tipo": "Ofício",
+      "data": "21/08/2025",
+      "data_inclusao": "21/08/2025",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "6609908",
+      "tipo": "Declaração",
+      "data": "21/08/2025",
+      "data_inclusao": "21/08/2025",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "6609918",
+      "tipo": "Carta Externa",
+      "data": "21/08/2025",
+      "data_inclusao": "21/08/2025",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "6610012",
+      "tipo": "Declaração",
+      "data": "21/08/2025",
+      "data_inclusao": "21/08/2025",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "6610048",
+      "tipo": "Anexo",
+      "data": "21/08/2025",
+      "data_inclusao": "21/08/2025",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "6610168",
+      "tipo": "Portaria",
+      "data": "21/08/2025",
+      "data_inclusao": "21/08/2025",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "6610278",
+      "tipo": "Anexo",
+      "data": "21/08/2025",
+      "data_inclusao": "21/08/2025",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "6610313",
+      "tipo": "Anexo",
+      "data": "21/08/2025",
+      "data_inclusao": "21/08/2025",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "6615523",
+      "tipo": "Despacho 1249",
+      "data": "25/08/2025",
+      "data_inclusao": "25/08/2025",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "6618067",
+      "tipo": "Ofício 1500",
+      "data": "28/08/2025",
+      "data_inclusao": "28/08/2025",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "6683539",
+      "tipo": "E-mail",
+      "data": "12/09/2025",
+      "data_inclusao": "12/09/2025",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "6683596",
+      "tipo": "Ofício",
+      "data": "12/09/2025",
+      "data_inclusao": "12/09/2025",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "6687619",
+      "tipo": "Despacho 1422",
+      "data": "16/09/2025",
+      "data_inclusao": "16/09/2025",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "6770518",
+      "tipo": "E-mail",
+      "data": "09/10/2025",
+      "data_inclusao": "09/10/2025",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "6770525",
+      "tipo": "Ofício s/nº",
+      "data": "09/10/2025",
+      "data_inclusao": "09/10/2025",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "6774439",
+      "tipo": "Despacho 1628",
+      "data": "10/10/2025",
+      "data_inclusao": "10/10/2025",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "6829216",
+      "tipo": "Parecer Técnico 2000",
+      "data": "28/10/2025",
+      "data_inclusao": "28/10/2025",
+      "unidade": "COIR"
+    },
+    {
+      "documento": "6834166",
+      "tipo": "Portaria Nº 97, DE 28 DE OUTUBRO DE 2025",
+      "data": "29/10/2025",
+      "data_inclusao": "29/10/2025",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "6837877",
+      "tipo": "Ofício 1460",
+      "data": "04/11/2025",
+      "data_inclusao": "04/11/2025",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "6878451",
+      "tipo": "E-mail",
+      "data": "12/11/2025",
+      "data_inclusao": "12/11/2025",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "6896332",
+      "tipo": "E-mail",
+      "data": "18/11/2025",
+      "data_inclusao": "18/11/2025",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "6896349",
+      "tipo": "Ofício",
+      "data": "18/11/2025",
+      "data_inclusao": "18/11/2025",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "6914928",
+      "tipo": "Despacho 1849",
+      "data": "26/11/2025",
+      "data_inclusao": "26/11/2025",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "6933476",
+      "tipo": "Ofício 2212",
+      "data": "04/12/2025",
+      "data_inclusao": "04/12/2025",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7053017",
+      "tipo": "E-mail",
+      "data": "14/01/2026",
+      "data_inclusao": "14/01/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7053073",
+      "tipo": "Carta Externa",
+      "data": "14/01/2026",
+      "data_inclusao": "14/01/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7053054",
+      "tipo": "Declaração",
+      "data": "14/01/2026",
+      "data_inclusao": "14/01/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7053654",
+      "tipo": "Termo",
+      "data": "14/01/2026",
+      "data_inclusao": "14/01/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7054296",
+      "tipo": "Despacho 493",
+      "data": "14/01/2026",
+      "data_inclusao": "14/01/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7062767",
+      "tipo": "Despacho 37",
+      "data": "18/01/2026",
+      "data_inclusao": "18/01/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7084958",
+      "tipo": "E-mail",
+      "data": "26/01/2026",
+      "data_inclusao": "26/01/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7085006",
+      "tipo": "Documentação",
+      "data": "26/01/2026",
+      "data_inclusao": "26/01/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7087861",
+      "tipo": "E-mail",
+      "data": "27/01/2026",
+      "data_inclusao": "27/01/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7087889",
+      "tipo": "Ofício",
+      "data": "27/01/2026",
+      "data_inclusao": "27/01/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7089402",
+      "tipo": "Despacho 1080",
+      "data": "27/01/2026",
+      "data_inclusao": "27/01/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7118393",
+      "tipo": "Ofício 173",
+      "data": "05/02/2026",
+      "data_inclusao": "05/02/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7138526",
+      "tipo": "Ofício 206",
+      "data": "12/02/2026",
+      "data_inclusao": "12/02/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7139484",
+      "tipo": "Ofício 207",
+      "data": "19/02/2026",
+      "data_inclusao": "19/02/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7158160",
+      "tipo": "Ofício 158",
+      "data": "20/02/2026",
+      "data_inclusao": "20/02/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7162931",
+      "tipo": "Recibo",
+      "data": "23/02/2026",
+      "data_inclusao": "23/02/2026",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "7162935",
+      "tipo": "Requerimento",
+      "data": "23/02/2026",
+      "data_inclusao": "23/02/2026",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "7162937",
+      "tipo": "Pedido de publicação/renovação/retificação de portaria autorizativa",
+      "data": "23/02/2026",
+      "data_inclusao": "23/02/2026",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "7162941",
+      "tipo": "Documentação",
+      "data": "23/02/2026",
+      "data_inclusao": "23/02/2026",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "7162943",
+      "tipo": "Documentação",
+      "data": "23/02/2026",
+      "data_inclusao": "23/02/2026",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "7173423",
+      "tipo": "Parecer Técnico 473",
+      "data": "26/02/2026",
+      "data_inclusao": "26/02/2026",
+      "unidade": "COIR"
+    },
+    {
+      "documento": "7183245",
+      "tipo": "Recibo",
+      "data": "02/03/2026",
+      "data_inclusao": "02/03/2026",
+      "unidade": "COIR"
+    },
+    {
+      "documento": "7183251",
+      "tipo": "Requerimento",
+      "data": "02/03/2026",
+      "data_inclusao": "02/03/2026",
+      "unidade": "COIR"
+    },
+    {
+      "documento": "7183260",
+      "tipo": "Complementação",
+      "data": "02/03/2026",
+      "data_inclusao": "02/03/2026",
+      "unidade": "COIR"
+    },
+    {
+      "documento": "7183267",
+      "tipo": "Complementação",
+      "data": "02/03/2026",
+      "data_inclusao": "02/03/2026",
+      "unidade": "COIR"
+    },
+    {
+      "documento": "7183274",
+      "tipo": "Complementação",
+      "data": "02/03/2026",
+      "data_inclusao": "02/03/2026",
+      "unidade": "COIR"
+    },
+    {
+      "documento": "7187538",
+      "tipo": "Portaria Nº 23, DE 2 DE MARÇO DE 2026",
+      "data": "03/03/2026",
+      "data_inclusao": "03/03/2026",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "7189363",
+      "tipo": "Ofício 199",
+      "data": "04/03/2026",
+      "data_inclusao": "04/03/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7198501",
+      "tipo": "E-mail",
+      "data": "05/03/2026",
+      "data_inclusao": "05/03/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7212411",
+      "tipo": "Recibo",
+      "data": "10/03/2026",
+      "data_inclusao": "10/03/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7212419",
+      "tipo": "Requerimento",
+      "data": "10/03/2026",
+      "data_inclusao": "10/03/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7212428",
+      "tipo": "Relatório de Acompanhamento Arqueológico",
+      "data": "10/03/2026",
+      "data_inclusao": "10/03/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7212432",
+      "tipo": "Documentação",
+      "data": "10/03/2026",
+      "data_inclusao": "10/03/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7212438",
+      "tipo": "Documentação",
+      "data": "10/03/2026",
+      "data_inclusao": "10/03/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7212443",
+      "tipo": "Ficha de Cadastro de sítio arqueológicos",
+      "data": "10/03/2026",
+      "data_inclusao": "10/03/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7212458",
+      "tipo": "Fotografia",
+      "data": "10/03/2026",
+      "data_inclusao": "10/03/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7212472",
+      "tipo": "Fotografia",
+      "data": "10/03/2026",
+      "data_inclusao": "10/03/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7212474",
+      "tipo": "Mapa",
+      "data": "10/03/2026",
+      "data_inclusao": "10/03/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7219619",
+      "tipo": "Despacho 3246",
+      "data": "12/03/2026",
+      "data_inclusao": "12/03/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7235317",
+      "tipo": "Parecer - Relatório de Pesquisa Arqueológica 160",
+      "data": "17/03/2026",
+      "data_inclusao": "17/03/2026",
+      "unidade": "CAIP-CGM"
+    },
+    {
+      "documento": "7240408",
+      "tipo": "E-mail",
+      "data": "19/03/2026",
+      "data_inclusao": "19/03/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7281015",
+      "tipo": "Recibo",
+      "data": "31/03/2026",
+      "data_inclusao": "31/03/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7281050",
+      "tipo": "Requerimento",
+      "data": "31/03/2026",
+      "data_inclusao": "31/03/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7281059",
+      "tipo": "Documentação",
+      "data": "31/03/2026",
+      "data_inclusao": "31/03/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7281072",
+      "tipo": "Mapa",
+      "data": "31/03/2026",
+      "data_inclusao": "31/03/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7281084",
+      "tipo": "Documentação",
+      "data": "31/03/2026",
+      "data_inclusao": "31/03/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7281094",
+      "tipo": "Fotografia",
+      "data": "31/03/2026",
+      "data_inclusao": "31/03/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7281102",
+      "tipo": "Ficha de Cadastro de sítio arqueológicos",
+      "data": "31/03/2026",
+      "data_inclusao": "31/03/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7281111",
+      "tipo": "Documentação",
+      "data": "31/03/2026",
+      "data_inclusao": "31/03/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7281127",
+      "tipo": "Fotografia",
+      "data": "31/03/2026",
+      "data_inclusao": "31/03/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7281143",
+      "tipo": "Fotografia",
+      "data": "31/03/2026",
+      "data_inclusao": "31/03/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7281173",
+      "tipo": "Fotografia",
+      "data": "31/03/2026",
+      "data_inclusao": "31/03/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7281175",
+      "tipo": "Mapa",
+      "data": "31/03/2026",
+      "data_inclusao": "31/03/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7291872",
+      "tipo": "Despacho 4441",
+      "data": "02/04/2026",
+      "data_inclusao": "02/04/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7296291",
+      "tipo": "Parecer Técnico 310",
+      "data": "06/04/2026",
+      "data_inclusao": "06/04/2026",
+      "unidade": "CAIP-CGM"
+    },
+    {
+      "documento": "7300677",
+      "tipo": "Despacho 4651",
+      "data": "07/04/2026",
+      "data_inclusao": "07/04/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7306220",
+      "tipo": "Recibo",
+      "data": "08/04/2026",
+      "data_inclusao": "08/04/2026",
+      "unidade": "PGLic-PA"
+    },
+    {
+      "documento": "7306222",
+      "tipo": "Requerimento",
+      "data": "08/04/2026",
+      "data_inclusao": "08/04/2026",
+      "unidade": "PGLic-PA"
+    },
+    {
+      "documento": "7306224",
+      "tipo": "Complementação",
+      "data": "08/04/2026",
+      "data_inclusao": "08/04/2026",
+      "unidade": "PGLic-PA"
+    },
+    {
+      "documento": "7313795",
+      "tipo": "Despacho 4882",
+      "data": "10/04/2026",
+      "data_inclusao": "10/04/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7315469",
+      "tipo": "Parecer Técnico 330",
+      "data": "10/04/2026",
+      "data_inclusao": "10/04/2026",
+      "unidade": "CAIP-CGM"
+    },
+    {
+      "documento": "7323166",
+      "tipo": "Despacho 5037",
+      "data": "14/04/2026",
+      "data_inclusao": "14/04/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7319730",
+      "tipo": "Recibo",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7319731",
+      "tipo": "Requerimento",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7319732",
+      "tipo": "Documento",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7319736",
+      "tipo": "Documento",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7319738",
+      "tipo": "Relatório de Monitoramento Arqueológico",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7319751",
+      "tipo": "Recibo",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7319753",
+      "tipo": "Requerimento",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7319754",
+      "tipo": "Fotografia",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7319764",
+      "tipo": "Fotografia",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7319769",
+      "tipo": "Fotografia",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7319799",
+      "tipo": "Recibo",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7319801",
+      "tipo": "Requerimento",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7319802",
+      "tipo": "Documentação",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7319803",
+      "tipo": "Relatório de Monitoramento Arqueológico",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7319817",
+      "tipo": "Fotografia",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7321372",
+      "tipo": "Recibo",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7321373",
+      "tipo": "Requerimento",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7321375",
+      "tipo": "Documento",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7321376",
+      "tipo": "Currículo",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7321380",
+      "tipo": "Declaração",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7321382",
+      "tipo": "Declaração",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7321385",
+      "tipo": "Termo",
+      "data": "13/04/2026",
+      "data_inclusao": "13/04/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7323229",
+      "tipo": "Despacho 5038",
+      "data": "14/04/2026",
+      "data_inclusao": "14/04/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7325175",
+      "tipo": "Parecer - Relatório de Pesquisa Arqueológica 193",
+      "data": "14/04/2026",
+      "data_inclusao": "14/04/2026",
+      "unidade": "CAIP-CGM"
+    },
+    {
+      "documento": "7330362",
+      "tipo": "Parecer Técnico 949",
+      "data": "16/04/2026",
+      "data_inclusao": "16/04/2026",
+      "unidade": "COIR"
+    },
+    {
+      "documento": "7338195",
+      "tipo": "Portaria Nº 38, DE 16 DE ABRIL DE 2026",
+      "data": "17/04/2026",
+      "data_inclusao": "17/04/2026",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "7338318",
+      "tipo": "Ofício 874",
+      "data": "17/04/2026",
+      "data_inclusao": "17/04/2026",
+      "unidade": "CNA"
+    },
+    {
+      "documento": "7339169",
+      "tipo": "Ofício 671",
+      "data": "22/04/2026",
+      "data_inclusao": "22/04/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7341596",
+      "tipo": "Despacho 5393",
+      "data": "17/04/2026",
+      "data_inclusao": "17/04/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7364859",
+      "tipo": "Ofício 467",
+      "data": "11/05/2026",
+      "data_inclusao": "11/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7365351",
+      "tipo": "Ofício 468",
+      "data": "11/05/2026",
+      "data_inclusao": "11/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7396838",
+      "tipo": "Recibo",
+      "data": "07/05/2026",
+      "data_inclusao": "07/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7396842",
+      "tipo": "Requerimento",
+      "data": "07/05/2026",
+      "data_inclusao": "07/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7396844",
+      "tipo": "Relatório de Monitoramento Arqueológico",
+      "data": "07/05/2026",
+      "data_inclusao": "07/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7396848",
+      "tipo": "Documentação",
+      "data": "07/05/2026",
+      "data_inclusao": "07/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7396849",
+      "tipo": "Fotografia",
+      "data": "07/05/2026",
+      "data_inclusao": "07/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7396853",
+      "tipo": "Fotografia",
+      "data": "07/05/2026",
+      "data_inclusao": "07/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7396856",
+      "tipo": "Fotografia",
+      "data": "07/05/2026",
+      "data_inclusao": "07/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7396859",
+      "tipo": "Fotografia",
+      "data": "07/05/2026",
+      "data_inclusao": "07/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7396862",
+      "tipo": "Fotografia",
+      "data": "07/05/2026",
+      "data_inclusao": "07/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7396864",
+      "tipo": "Fotografia",
+      "data": "07/05/2026",
+      "data_inclusao": "07/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7396870",
+      "tipo": "Fotografia",
+      "data": "07/05/2026",
+      "data_inclusao": "07/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7396873",
+      "tipo": "Fotografia",
+      "data": "07/05/2026",
+      "data_inclusao": "07/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7396876",
+      "tipo": "Fotografia",
+      "data": "07/05/2026",
+      "data_inclusao": "07/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7396886",
+      "tipo": "Fotografia",
+      "data": "07/05/2026",
+      "data_inclusao": "07/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7396889",
+      "tipo": "Fotografia",
+      "data": "07/05/2026",
+      "data_inclusao": "07/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7396892",
+      "tipo": "Fotografia",
+      "data": "07/05/2026",
+      "data_inclusao": "07/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7396897",
+      "tipo": "Fotografia",
+      "data": "07/05/2026",
+      "data_inclusao": "07/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7396899",
+      "tipo": "Fotografia",
+      "data": "07/05/2026",
+      "data_inclusao": "07/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7400753",
+      "tipo": "Despacho 6461",
+      "data": "08/05/2026",
+      "data_inclusao": "08/05/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7406621",
+      "tipo": "Recibo",
+      "data": "11/05/2026",
+      "data_inclusao": "11/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7406623",
+      "tipo": "Requerimento",
+      "data": "11/05/2026",
+      "data_inclusao": "11/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7406625",
+      "tipo": "Relatório de Salvamento arqueológico",
+      "data": "11/05/2026",
+      "data_inclusao": "11/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7406626",
+      "tipo": "Documento",
+      "data": "11/05/2026",
+      "data_inclusao": "11/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7406629",
+      "tipo": "Fotografia",
+      "data": "11/05/2026",
+      "data_inclusao": "11/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7406640",
+      "tipo": "Documentação",
+      "data": "11/05/2026",
+      "data_inclusao": "11/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7406650",
+      "tipo": "Documentação",
+      "data": "11/05/2026",
+      "data_inclusao": "11/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7406652",
+      "tipo": "Documentação",
+      "data": "11/05/2026",
+      "data_inclusao": "11/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7406654",
+      "tipo": "Documento",
+      "data": "11/05/2026",
+      "data_inclusao": "11/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7413081",
+      "tipo": "Despacho 6718",
+      "data": "12/05/2026",
+      "data_inclusao": "12/05/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7412351",
+      "tipo": "Ofício 813",
+      "data": "13/05/2026",
+      "data_inclusao": "13/05/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7421754",
+      "tipo": "E-mail",
+      "data": "14/05/2026",
+      "data_inclusao": "14/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7421794",
+      "tipo": "E-mail",
+      "data": "14/05/2026",
+      "data_inclusao": "14/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7440313",
+      "tipo": "Confirmação",
+      "data": "15/05/2026",
+      "data_inclusao": "19/05/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7442494",
+      "tipo": "E-mail",
+      "data": "20/05/2026",
+      "data_inclusao": "20/05/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7451201",
+      "tipo": "Confirmação de",
+      "data": "22/05/2026",
+      "data_inclusao": "22/05/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7466362",
+      "tipo": "E-mail",
+      "data": "27/05/2026",
+      "data_inclusao": "27/05/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7509517",
+      "tipo": "Recibo",
+      "data": "10/06/2026",
+      "data_inclusao": "10/06/2026",
+      "unidade": "PGLic-PA"
+    },
+    {
+      "documento": "7509559",
+      "tipo": "Requerimento",
+      "data": "10/06/2026",
+      "data_inclusao": "10/06/2026",
+      "unidade": "PGLic-PA"
+    },
+    {
+      "documento": "7509584",
+      "tipo": "Relatório de Acompanhamento Arqueológico",
+      "data": "10/06/2026",
+      "data_inclusao": "10/06/2026",
+      "unidade": "PGLic-PA"
+    },
+    {
+      "documento": "7509609",
+      "tipo": "Documentação",
+      "data": "10/06/2026",
+      "data_inclusao": "10/06/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7509649",
+      "tipo": "Documentação",
+      "data": "10/06/2026",
+      "data_inclusao": "10/06/2026",
+      "unidade": "PROT SEDE BSB"
+    },
+    {
+      "documento": "7514980",
+      "tipo": "Recibo",
+      "data": "11/06/2026",
+      "data_inclusao": "11/06/2026",
+      "unidade": "CGLic"
+    },
+    {
+      "documento": "7514998",
+      "tipo": "Requerimento",
+      "data": "11/06/2026",
+      "data_inclusao": "11/06/2026",
+      "unidade": "CGLic"
+    },
+    {
+      "documento": "7515027",
+      "tipo": "Documento",
+      "data": "11/06/2026",
+      "data_inclusao": "11/06/2026",
+      "unidade": "CGLic"
+    },
+    {
+      "documento": "7523347",
+      "tipo": "Despacho 8599",
+      "data": "15/06/2026",
+      "data_inclusao": "15/06/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7524331",
+      "tipo": "Ofício 1047",
+      "data": "18/06/2026",
+      "data_inclusao": "18/06/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7560443",
+      "tipo": "Parecer - Relatório de Pesquisa Arqueológica 26",
+      "data": "25/06/2026",
+      "data_inclusao": "25/06/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7560688",
+      "tipo": "Despacho 440",
+      "data": "25/06/2026",
+      "data_inclusao": "25/06/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7571826",
+      "tipo": "Ofício 1152",
+      "data": "30/06/2026",
+      "data_inclusao": "30/06/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7571985",
+      "tipo": "Recibo",
+      "data": "30/06/2026",
+      "data_inclusao": "30/06/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7571992",
+      "tipo": "Requerimento",
+      "data": "30/06/2026",
+      "data_inclusao": "30/06/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7571996",
+      "tipo": "Dados pessoais ou dados pessoais sensíveis",
+      "data": "30/06/2026",
+      "data_inclusao": "30/06/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7572002",
+      "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+      "data": "30/06/2026",
+      "data_inclusao": "30/06/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7575318",
+      "tipo": "Despacho 9504",
+      "data": "01/07/2026",
+      "data_inclusao": "01/07/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7576465",
+      "tipo": "Ofício 1159",
+      "data": "01/07/2026",
+      "data_inclusao": "01/07/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7583094",
+      "tipo": "Ofício 801",
+      "data": "08/07/2026",
+      "data_inclusao": "08/07/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7608586",
+      "tipo": "E-mail",
+      "data": "09/07/2026",
+      "data_inclusao": "09/07/2026",
+      "unidade": "IPHAN-PA"
+    },
+    {
+      "documento": "7632370",
+      "tipo": "E-mail",
+      "data": "16/07/2026",
+      "data_inclusao": "16/07/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7636252",
+      "tipo": "Confirmação de",
+      "data": "17/07/2026",
+      "data_inclusao": "17/07/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7640185",
+      "tipo": "E-mail",
+      "data": "20/07/2026",
+      "data_inclusao": "20/07/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7650612",
+      "tipo": "Recibo",
+      "data": "22/07/2026",
+      "data_inclusao": "22/07/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7650613",
+      "tipo": "Requerimento",
+      "data": "22/07/2026",
+      "data_inclusao": "22/07/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7650615",
+      "tipo": "Relatório de Licenciamento Ambiental",
+      "data": "22/07/2026",
+      "data_inclusao": "22/07/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7650617",
+      "tipo": "Dados pessoais ou dados pessoais sensíveis",
+      "data": "22/07/2026",
+      "data_inclusao": "22/07/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7650619",
+      "tipo": "Recibo",
+      "data": "22/07/2026",
+      "data_inclusao": "22/07/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7650622",
+      "tipo": "Requerimento",
+      "data": "22/07/2026",
+      "data_inclusao": "22/07/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7650623",
+      "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+      "data": "22/07/2026",
+      "data_inclusao": "22/07/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7650624",
+      "tipo": "Dados pessoais ou dados pessoais sensíveis",
+      "data": "22/07/2026",
+      "data_inclusao": "22/07/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7650627",
+      "tipo": "Recibo",
+      "data": "22/07/2026",
+      "data_inclusao": "22/07/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7650628",
+      "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+      "data": "22/07/2026",
+      "data_inclusao": "22/07/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7650630",
+      "tipo": "Requerimento",
+      "data": "22/07/2026",
+      "data_inclusao": "22/07/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7650632",
+      "tipo": "Dados pessoais ou dados pessoais sensíveis",
+      "data": "22/07/2026",
+      "data_inclusao": "22/07/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7650636",
+      "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+      "data": "22/07/2026",
+      "data_inclusao": "22/07/2026",
+      "unidade": "PROT IPHAN-PA"
+    },
+    {
+      "documento": "7665761",
+      "tipo": "Despacho 11087",
+      "data": "27/07/2026",
+      "data_inclusao": "27/07/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7669008",
+      "tipo": "Ofício 1326",
+      "data": "28/07/2026",
+      "data_inclusao": "28/07/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709373",
+      "tipo": "Recibo",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709375",
+      "tipo": "Requerimento",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709376",
+      "tipo": "Relatório de Licenciamento Ambiental",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709377",
+      "tipo": "Dados pessoais ou dados pessoais sensíveis",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709378",
+      "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709403",
+      "tipo": "Recibo",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709404",
+      "tipo": "Requerimento",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709405",
+      "tipo": "Dados pessoais ou dados pessoais sensíveis",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709408",
+      "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709411",
+      "tipo": "Recibo",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709412",
+      "tipo": "Requerimento",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709413",
+      "tipo": "Dados pessoais ou dados pessoais sensíveis",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709418",
+      "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709425",
+      "tipo": "Recibo",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709426",
+      "tipo": "Requerimento",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709427",
+      "tipo": "Dados pessoais ou dados pessoais sensíveis",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709429",
+      "tipo": "Recibo",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709430",
+      "tipo": "Requerimento",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709431",
+      "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709433",
+      "tipo": "Dados pessoais ou dados pessoais sensíveis",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7709434",
+      "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+      "data": "07/08/2026",
+      "data_inclusao": "07/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7714291",
+      "tipo": "Recibo",
+      "data": "10/08/2026",
+      "data_inclusao": "10/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7714296",
+      "tipo": "Requerimento",
+      "data": "10/08/2026",
+      "data_inclusao": "10/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7714298",
+      "tipo": "Dados pessoais ou dados pessoais sensíveis",
+      "data": "10/08/2026",
+      "data_inclusao": "10/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7722199",
+      "tipo": "Despacho 12094",
+      "data": "12/08/2026",
+      "data_inclusao": "12/08/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7724278",
+      "tipo": "Ofício 1453",
+      "data": "14/08/2026",
+      "data_inclusao": "14/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7731550",
+      "tipo": "Recibo",
+      "data": "14/08/2026",
+      "data_inclusao": "14/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7731551",
+      "tipo": "Requerimento",
+      "data": "14/08/2026",
+      "data_inclusao": "14/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7731554",
+      "tipo": "Relatório de Licenciamento Ambiental",
+      "data": "14/08/2026",
+      "data_inclusao": "14/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7731557",
+      "tipo": "Dados pessoais ou dados pessoais sensíveis",
+      "data": "14/08/2026",
+      "data_inclusao": "14/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7731561",
+      "tipo": "Anotação de Responsabilidade Técnica (ART)",
+      "data": "14/08/2026",
+      "data_inclusao": "14/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7731564",
+      "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+      "data": "14/08/2026",
+      "data_inclusao": "14/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7757393",
+      "tipo": "Despacho 12679",
+      "data": "21/08/2026",
+      "data_inclusao": "21/08/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7758560",
+      "tipo": "Ofício 1527",
+      "data": "25/08/2026",
+      "data_inclusao": "25/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    }
+  ],
+  "andamentos": [
+    {
+      "data_hora": "21/08/2026 14:48",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "21/08/2026 14:47",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PGLic-PA"
+    },
+    {
+      "data_hora": "21/08/2026 14:44",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "21/08/2026 13:21",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo remetido pela unidade CGM"
+    },
+    {
+      "data_hora": "20/08/2026 16:33",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "14/08/2026 15:34",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "14/08/2026 15:34",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "14/08/2026 15:18",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT IPHAN"
+    },
+    {
+      "data_hora": "14/08/2026 11:16",
+      "unidade": "PROT IPHAN",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "12/08/2026 14:10",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "12/08/2026 14:08",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PGLic-PA"
+    },
+    {
+      "data_hora": "12/08/2026 14:04",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "12/08/2026 13:38",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo remetido pela unidade CGM"
+    },
+    {
+      "data_hora": "11/08/2026 13:07",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "10/08/2026 19:53",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "10/08/2026 19:53",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "10/08/2026 17:15",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT SEDE BSB"
+    },
+    {
+      "data_hora": "10/08/2026 16:55",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "10/08/2026 14:27",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "10/08/2026 11:44",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "10/08/2026 11:44",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "07/08/2026 17:36",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT SEDE BSB"
+    },
+    {
+      "data_hora": "07/08/2026 16:48",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "28/07/2026 11:02",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "28/07/2026 11:02",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PGLic-PA"
+    },
+    {
+      "data_hora": "28/07/2026 10:55",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "27/07/2026 15:15",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo remetido pela unidade CGM"
+    },
+    {
+      "data_hora": "23/07/2026 12:25",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "22/07/2026 17:47",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "22/07/2026 17:46",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "22/07/2026 15:07",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT SEDE BSB"
+    },
+    {
+      "data_hora": "22/07/2026 14:40",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "22/07/2026 14:12",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "22/07/2026 14:11",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "20/07/2026 13:41",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "20/07/2026 13:24",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "20/07/2026 11:35",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "20/07/2026 11:34",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "À COTEC para acompanhamento."
+    },
+    {
+      "data_hora": "20/07/2026 11:33",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "E-mail 7640185"
+    },
+    {
+      "data_hora": "17/07/2026 13:49",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Confirmação de Receb. Oficio 801/2026 - Arqueologika (7636252)"
+    },
+    {
+      "data_hora": "16/07/2026 15:07",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "16/07/2026 15:04",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "16/07/2026 15:04",
+      "unidade": "IPHAN-PA",
+      "descricao": "Ao Protocolo para envio do Ofício 801 (7583094) aos destinatários."
+    },
+    {
+      "data_hora": "01/07/2026 13:58",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "01/07/2026 13:58",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PGLic-PA"
+    },
+    {
+      "data_hora": "01/07/2026 13:53",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "01/07/2026 11:21",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo remetido pela unidade CGM"
+    },
+    {
+      "data_hora": "30/06/2026 17:04",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "30/06/2026 16:59",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "30/06/2026 15:57",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "30/06/2026 15:56",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "30/06/2026 15:52",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT SEDE BSB"
+    },
+    {
+      "data_hora": "30/06/2026 14:48",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+    },
+    {
+      "data_hora": "30/06/2026 14:09",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "25/06/2026 14:48",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Encaminho para devidas providencias o Parecer - Relatório de Pesquisa Arqueológica 26 (7560443)."
+    },
+    {
+      "data_hora": "15/06/2026 15:30",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "15/06/2026 15:29",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PGLic-PA"
+    },
+    {
+      "data_hora": "15/06/2026 15:11",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "15/06/2026 14:14",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo remetido pela unidade CGM"
+    },
+    {
+      "data_hora": "12/06/2026 17:37",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "12/06/2026 15:17",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+    },
+    {
+      "data_hora": "12/06/2026 15:04",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "12/06/2026 15:02",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "12/06/2026 13:27",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "12/06/2026 11:58",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PGLic-PA"
+    },
+    {
+      "data_hora": "12/06/2026 08:36",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT SEDE BSB"
+    },
+    {
+      "data_hora": "11/06/2026 17:02",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "11/06/2026 15:57",
+      "unidade": "CGLic",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "11/06/2026 15:54",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "11/06/2026 15:48",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "11/06/2026 15:47",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "11/06/2026 09:15",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT SEDE BSB"
+    },
+    {
+      "data_hora": "10/06/2026 15:39",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "27/05/2026 13:45",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "27/05/2026 13:35",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "27/05/2026 11:38",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "27/05/2026 11:37",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "À Cotec para acompanhamento."
+    },
+    {
+      "data_hora": "22/05/2026 09:25",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Confirmação de Receb. Ofício nº 468/2026 - arqueologika (7451201)"
+    },
+    {
+      "data_hora": "20/05/2026 10:19",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "19/05/2026 17:17",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "19/05/2026 17:16",
+      "unidade": "IPHAN-PA",
+      "descricao": "Ao Protocolo, para envio do Ofício 468 (7365351) aos destinatários."
+    },
+    {
+      "data_hora": "13/05/2026 14:35",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "12/05/2026 15:51",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo remetido pela unidade CGM"
+    },
+    {
+      "data_hora": "11/05/2026 16:48",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "11/05/2026 15:27",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "11/05/2026 15:25",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "11/05/2026 15:24",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT SEDE BSB"
+    },
+    {
+      "data_hora": "11/05/2026 14:13",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "11/05/2026 14:13",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PGLic-PA"
+    },
+    {
+      "data_hora": "11/05/2026 13:49",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "11/05/2026 09:36",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "08/05/2026 12:03",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo remetido pela unidade CGM"
+    },
+    {
+      "data_hora": "08/05/2026 11:20",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "08/05/2026 10:01",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "08/05/2026 10:00",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "08/05/2026 09:20",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT SEDE BSB"
+    },
+    {
+      "data_hora": "07/05/2026 14:34",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "23/04/2026 14:14",
+      "unidade": "PGLic-PA",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "23/04/2026 14:09",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "23/04/2026 09:47",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "22/04/2026 14:14",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+    },
+    {
+      "data_hora": "17/04/2026 16:46",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo remetido pela unidade CGM"
+    },
+    {
+      "data_hora": "17/04/2026 15:38",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "17/04/2026 15:31",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CNA"
+    },
+    {
+      "data_hora": "17/04/2026 08:59",
+      "unidade": "CNA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "17/04/2026 08:58",
+      "unidade": "CNA",
+      "descricao": "Processo remetido pela unidade COIR"
+    },
+    {
+      "data_hora": "15/04/2026 15:27",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "15/04/2026 14:48",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "15/04/2026 11:46",
+      "unidade": "COIR",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "15/04/2026 11:34",
+      "unidade": "COIR",
+      "descricao": "Processo remetido pela unidade CNA"
+    },
+    {
+      "data_hora": "15/04/2026 09:28",
+      "unidade": "CNA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "15/04/2026 08:53",
+      "unidade": "CNA",
+      "descricao": "Processo remetido pela unidade CAIP-CGM"
+    },
+    {
+      "data_hora": "15/04/2026 08:53",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CAIP-CGM"
+    },
+    {
+      "data_hora": "14/04/2026 11:30",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "14/04/2026 11:30",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PGLic-PA"
+    },
+    {
+      "data_hora": "14/04/2026 11:16",
+      "unidade": "CAIP-CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "14/04/2026 09:57",
+      "unidade": "CAIP-CGM",
+      "descricao": "Processo remetido pela unidade CGM"
+    },
+    {
+      "data_hora": "14/04/2026 09:24",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "14/04/2026 08:42",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "14/04/2026 08:41",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "14/04/2026 08:40",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT SEDE BSB"
+    },
+    {
+      "data_hora": "13/04/2026 14:33",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "13/04/2026 11:49",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "13/04/2026 11:14",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CAIP-CGM"
+    },
+    {
+      "data_hora": "10/04/2026 10:58",
+      "unidade": "CAIP-CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "10/04/2026 10:25",
+      "unidade": "CAIP-CGM",
+      "descricao": "Processo remetido pela unidade CGM"
+    },
+    {
+      "data_hora": "08/04/2026 17:29",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "08/04/2026 15:40",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "08/04/2026 15:40",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "08/04/2026 15:32",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT SEDE BSB"
+    },
+    {
+      "data_hora": "08/04/2026 13:30",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "07/04/2026 11:19",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo remetido pela unidade CGM"
+    },
+    {
+      "data_hora": "07/04/2026 11:09",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "07/04/2026 08:56",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CAIP-CGM"
+    },
+    {
+      "data_hora": "06/04/2026 10:05",
+      "unidade": "CAIP-CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "02/04/2026 13:56",
+      "unidade": "CAIP-CGM",
+      "descricao": "Processo remetido pela unidade CGM"
+    },
+    {
+      "data_hora": "01/04/2026 11:32",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "31/03/2026 13:56",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "31/03/2026 13:53",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "31/03/2026 11:43",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT SEDE BSB"
+    },
+    {
+      "data_hora": "31/03/2026 11:42",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "31/03/2026 10:33",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "31/03/2026 10:33",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "19/03/2026 08:14",
+      "unidade": "CGM",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "18/03/2026 10:20",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "18/03/2026 09:25",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CAIP-CGM"
+    },
+    {
+      "data_hora": "13/03/2026 10:20",
+      "unidade": "CAIP-CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "12/03/2026 10:10",
+      "unidade": "CAIP-CGM",
+      "descricao": "Processo remetido pela unidade CGM"
+    },
+    {
+      "data_hora": "11/03/2026 15:41",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "11/03/2026 15:18",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "11/03/2026 15:18",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "11/03/2026 13:12",
+      "unidade": "IPHAN-PA",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "11/03/2026 12:24",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT SEDE BSB"
+    },
+    {
+      "data_hora": "10/03/2026 14:49",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "05/03/2026 11:51",
+      "unidade": "CGM",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "03/03/2026 14:09",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "03/03/2026 11:17",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade CNA"
+    },
+    {
+      "data_hora": "03/03/2026 09:51",
+      "unidade": "CNA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "03/03/2026 09:50",
+      "unidade": "CNA",
+      "descricao": "Processo remetido pela unidade COIR"
+    },
+    {
+      "data_hora": "02/03/2026 14:50",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "02/03/2026 11:46",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "02/03/2026 11:45",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "02/03/2026 11:43",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT SEDE BSB"
+    },
+    {
+      "data_hora": "02/03/2026 11:40",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "26/02/2026 14:57",
+      "unidade": "CAIP-CGM",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "26/02/2026 14:50",
+      "unidade": "CAIP-CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "26/02/2026 10:40",
+      "unidade": "CGLic",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "25/02/2026 11:28",
+      "unidade": "COIR",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "25/02/2026 11:27",
+      "unidade": "COIR",
+      "descricao": "Processo remetido pela unidade CNA"
+    },
+    {
+      "data_hora": "25/02/2026 11:07",
+      "unidade": "CGLic",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "25/02/2026 10:55",
+      "unidade": "CGM",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "25/02/2026 10:36",
+      "unidade": "CAIP-CGM",
+      "descricao": "Processo remetido pela unidade CGM"
+    },
+    {
+      "data_hora": "23/02/2026 17:09",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "23/02/2026 16:27",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "23/02/2026 16:27",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "23/02/2026 16:26",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade CGM"
+    },
+    {
+      "data_hora": "23/02/2026 16:26",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "23/02/2026 15:32",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "23/02/2026 15:31",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "23/02/2026 15:26",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT SEDE BSB"
+    },
+    {
+      "data_hora": "23/02/2026 15:09",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "23/02/2026 12:05",
+      "unidade": "CNA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "20/02/2026 18:30",
+      "unidade": "CNA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "19/02/2026 15:03",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "19/02/2026 15:00",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+    },
+    {
+      "data_hora": "19/02/2026 09:51",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "19/02/2026 09:32",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PGLic-PA"
+    },
+    {
+      "data_hora": "19/02/2026 09:17",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "27/01/2026 15:11",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo remetido pela unidade CGM"
+    },
+    {
+      "data_hora": "27/01/2026 14:05",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "27/01/2026 11:49",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "27/01/2026 11:48",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "27/01/2026 11:23",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT SEDE BSB"
+    },
+    {
+      "data_hora": "27/01/2026 11:23",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "14/01/2026 16:32",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo remetido pela unidade CGM"
+    },
+    {
+      "data_hora": "14/01/2026 15:00",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "14/01/2026 14:36",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "14/01/2026 14:29",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "14/01/2026 13:22",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT SEDE BSB"
+    },
+    {
+      "data_hora": "14/01/2026 13:22",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "01/12/2025 09:27",
+      "unidade": "CGM",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "01/12/2025 09:25",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "26/11/2025 15:11",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "26/11/2025 14:57",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "18/11/2025 17:57",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "18/11/2025 17:57",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "18/11/2025 15:30",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "18/11/2025 15:30",
+      "unidade": "PROT SEDE BSB",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "11/11/2025 11:31",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "30/10/2025 14:04",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "À Cotec, considerando que o CNA concluiu a análise do pedido de renovação de portaria, restituo o processo para acompanhamento desta coordenação."
+    },
+    {
+      "data_hora": "30/10/2025 10:16",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "29/10/2025 16:39",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade CNA"
+    },
+    {
+      "data_hora": "29/10/2025 16:08",
+      "unidade": "CNA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "29/10/2025 16:08",
+      "unidade": "CNA",
+      "descricao": "Processo remetido pela unidade COIR"
+    },
+    {
+      "data_hora": "28/10/2025 15:42",
+      "unidade": "COIR",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "14/10/2025 13:59",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "10/10/2025 12:58",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "10/10/2025 08:22",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "09/10/2025 12:22",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "09/10/2025 12:21",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Encaminhe-se Ofício s/nº Zanettini Arqueologia (6770525) para conhecimento e providências."
+    },
+    {
+      "data_hora": "09/10/2025 12:09",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "18/09/2025 14:13",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "18/09/2025 12:24",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "15/09/2025 10:34",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "12/09/2025 16:07",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "12/09/2025 16:01",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Ofício S/Nº Troca de coordenador de campo (6683596)"
+    },
+    {
+      "data_hora": "12/09/2025 15:52",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "25/08/2025 11:53",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "25/08/2025 11:18",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "22/08/2025 09:12",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "21/08/2025 16:33",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "21/08/2025 16:23",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Ofício S/Nº Renovação de Portaria Autorizativa (6609814)"
+    },
+    {
+      "data_hora": "21/08/2025 15:12",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "21/08/2025 15:12",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+    },
+    {
+      "data_hora": "21/08/2025 15:11",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Remoção de sobrestamento"
+    },
+    {
+      "data_hora": "02/12/2024 15:07",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Sobrestamento. Reabrir: após envio de complementações solicitadas. Data: 02/01/2025."
+    },
+    {
+      "data_hora": "02/12/2024 15:06",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "02/12/2024 15:04",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "02/12/2024 15:04",
+      "unidade": "IPHAN-PA",
+      "descricao": "À COTEC para conhecimento da tentativa de entrega do Ofício 1541."
+    },
+    {
+      "data_hora": "19/11/2024 11:38",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "13/11/2024 23:32",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+    },
+    {
+      "data_hora": "13/11/2024 18:29",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "À Cotec, encaminho Despacho 5855355."
+    },
+    {
+      "data_hora": "11/10/2024 17:35",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "11/10/2024 16:27",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "11/10/2024 15:28",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "11/10/2024 15:28",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "11/10/2024 15:20",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "07/10/2024 11:36",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "04/10/2024 19:56",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+    },
+    {
+      "data_hora": "04/10/2024 19:35",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "À Cotec, encaminho Parecer 5741102 referente à análise dos relatórios de Salvamento Arqueológico e do Programa Integrado de Educação Patrimonial."
+    },
+    {
+      "data_hora": "02/10/2024 10:01",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "01/10/2024 14:45",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "01/10/2024 14:34",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "26/09/2024 16:28",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "26/09/2024 14:02",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "25/09/2024 16:24",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "25/09/2024 15:06",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "25/09/2024 15:02",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "28/08/2024 09:47",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "27/08/2024 20:00",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "20/08/2024 12:32",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "19/08/2024 16:37",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "19/08/2024 16:35",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "05/08/2024 14:42",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "05/08/2024 14:37",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "05/08/2024 12:58",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "05/08/2024 10:24",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "05/08/2024 10:22",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "29/07/2024 09:10",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Remoção de sobrestamento"
+    },
+    {
+      "data_hora": "18/07/2024 17:35",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Sobrestamento. Reabrir em 29/07/2024 e atribuir à técnica responsável, após retorno das férias."
+    },
+    {
+      "data_hora": "18/07/2024 17:11",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "18/07/2024 16:35",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "18/07/2024 15:33",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "18/07/2024 15:00",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "18/07/2024 14:59",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "E-mail /Zanettine (5519801)."
+    },
+    {
+      "data_hora": "18/07/2024 14:41",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "17/07/2024 10:47",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "17/07/2024 10:45",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "17/07/2024 10:45",
+      "unidade": "IPHAN-PA",
+      "descricao": "À COTEC para conhecimento da confirmação de recebimento do Ofício 837."
+    },
+    {
+      "data_hora": "15/07/2024 12:38",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "15/07/2024 11:57",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "12/07/2024 18:58",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "À Cotec, encaminho Despacho - 5506146 - proposta de encaminhamento em decorrência do protocolo do Relatório do Projeto Integrado de Educação Patrimonial."
+    },
+    {
+      "data_hora": "11/07/2024 10:27",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "11/07/2024 09:51",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade CNA"
+    },
+    {
+      "data_hora": "10/07/2024 16:48",
+      "unidade": "CNA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "10/07/2024 15:56",
+      "unidade": "CNA",
+      "descricao": "Processo remetido pela unidade SREC"
+    },
+    {
+      "data_hora": "10/07/2024 15:55",
+      "unidade": "CGINF",
+      "descricao": "p providencias da Direção do CNA"
+    },
+    {
+      "data_hora": "05/06/2024 08:51",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "04/06/2024 17:28",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "04/06/2024 15:16",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "04/06/2024 10:53",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "04/06/2024 10:44",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "22/04/2024 17:31",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "22/04/2024 17:29",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "22/04/2024 16:49",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "22/04/2024 16:49",
+      "unidade": "IPHAN-PA",
+      "descricao": "À COTEC, para conhecimento após a confirmação de recebimento do Ofício 390 (5243279) pelo arqueólogo."
+    },
+    {
+      "data_hora": "08/04/2024 09:46",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "05/04/2024 17:10",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade CNA"
+    },
+    {
+      "data_hora": "05/04/2024 11:27",
+      "unidade": "CNA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "05/04/2024 11:26",
+      "unidade": "CNA",
+      "descricao": "Processo remetido pela unidade COIR"
+    },
+    {
+      "data_hora": "27/03/2024 10:07",
+      "unidade": "COIR",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "26/03/2024 17:54",
+      "unidade": "COIR",
+      "descricao": "Processo remetido pela unidade CNA"
+    },
+    {
+      "data_hora": "22/03/2024 11:45",
+      "unidade": "CNA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "22/03/2024 10:59",
+      "unidade": "CNA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "20/03/2024 09:29",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "19/03/2024 21:41",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+    },
+    {
+      "data_hora": "12/03/2024 16:30",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "À Cotec, encaminho Parecer 5166833 referente à análise do PGPA."
+    },
+    {
+      "data_hora": "11/03/2024 19:20",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "11/03/2024 17:31",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "11/03/2024 16:15",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "11/03/2024 15:11",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "11/03/2024 15:00",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Ofício s/n - Zanettini Arqueologia - Solicita Informações."
+    },
+    {
+      "data_hora": "11/03/2024 14:53",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "16/02/2024 10:24",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "10/01/2024 17:24",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "10/01/2024 16:26",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "10/01/2024 16:15",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "10/01/2024 15:44",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "10/01/2024 14:55",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "10/01/2024 14:50",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Oficio s/n - Zanettini Arqueologia."
+    },
+    {
+      "data_hora": "10/01/2024 11:49",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "08/01/2024 10:15",
+      "unidade": "CGINF",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "04/01/2024 16:07",
+      "unidade": "CGINF",
+      "descricao": "Processo remetido pela unidade CNA"
+    },
+    {
+      "data_hora": "04/01/2024 16:05",
+      "unidade": "CNA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "04/01/2024 11:41",
+      "unidade": "CNA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "21/12/2023 09:59",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "21/12/2023 06:30",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+    },
+    {
+      "data_hora": "18/12/2023 13:26",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "À Cotec, encaminho Parecer 4974205 - análise das complementações do RAIPA."
+    },
+    {
+      "data_hora": "14/12/2023 09:04",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "14/12/2023 07:06",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "11/12/2023 10:03",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "07/12/2023 14:43",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "07/12/2023 14:12",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "08/11/2023 15:44",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "08/11/2023 15:39",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "08/11/2023 14:30",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "08/11/2023 14:03",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "08/11/2023 14:01",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "07/11/2023 09:11",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "06/11/2023 14:00",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "06/11/2023 14:00",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "E-mail - Zanettini - financeiro (4858578)"
+    },
+    {
+      "data_hora": "06/11/2023 13:53",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "03/11/2023 17:06",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "01/11/2023 12:26",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "01/11/2023 12:21",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "01/11/2023 12:20",
+      "unidade": "IPHAN-PA",
+      "descricao": "À COTEC, para conhecimento após a confirmação de recebimento do Ofício 1210 (4834929) pelo interessado."
+    },
+    {
+      "data_hora": "31/10/2023 16:31",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "31/10/2023 09:11",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "31/10/2023 09:02",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "31/10/2023 09:01",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Confirmação de recebimento do OF.1210/2023 -Protocolado Bianca (4843898)"
+    },
+    {
+      "data_hora": "31/10/2023 08:48",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "19/10/2023 10:15",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "18/10/2023 17:31",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+    },
+    {
+      "data_hora": "18/10/2023 15:38",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "18/10/2023 15:31",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "18/10/2023 09:24",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "18/10/2023 08:39",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "18/10/2023 08:33",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "10/10/2023 10:20",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "À Cotec, encaminho Parecer 4746266 referente à análise do RAIPA."
+    },
+    {
+      "data_hora": "25/09/2023 15:00",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "25/09/2023 14:05",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "25/09/2023 11:10",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "25/09/2023 11:08",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "25/09/2023 11:07",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "E-mail -Protocolo de entrada de documento-Zanettini. (4748339)"
+    },
+    {
+      "data_hora": "25/09/2023 11:04",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "29/08/2023 13:33",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "29/08/2023 12:08",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "29/08/2023 09:19",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "28/08/2023 16:34",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "28/08/2023 16:32",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "31/07/2023 13:00",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "31/07/2023 11:36",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "25/07/2023 19:36",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "25/07/2023 16:56",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "25/07/2023 16:56",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "E-mail - Zanettini Arqueologia (4588850)"
+    },
+    {
+      "data_hora": "25/07/2023 15:49",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "25/06/2023 18:49",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "23/06/2023 12:18",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "23/06/2023 11:48",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "23/06/2023 11:47",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Confirmação de recebimento do Oficio 571/2023 - OZ MINERALS (4507456)"
+    },
+    {
+      "data_hora": "23/06/2023 09:53",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "23/06/2023 09:38",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "23/06/2023 09:36",
+      "unidade": "IPHAN-PA",
+      "descricao": "Ao Protocolo, para envio do Ofício 571 (4483396), ao Empreendedor."
+    },
+    {
+      "data_hora": "02/06/2023 13:50",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "02/06/2023 13:48",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+    },
+    {
+      "data_hora": "02/06/2023 13:40",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "02/06/2023 12:58",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "02/06/2023 10:52",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "02/06/2023 10:13",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "02/06/2023 10:10",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "E-mail - Zanettini (4453835)"
+    },
+    {
+      "data_hora": "02/06/2023 09:48",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "01/06/2023 16:16",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "01/06/2023 16:13",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "01/06/2023 16:12",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "01/06/2023 16:12",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "01/06/2023 16:12",
+      "unidade": "IPHAN-PA",
+      "descricao": "à COTEC, para conhecimento após a confirmação de recebimento do Ofício 456 (4425639) pelos interessados."
+    },
+    {
+      "data_hora": "01/06/2023 16:03",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "01/06/2023 14:39",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "01/06/2023 14:37",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Confirmação de recebimento oficio 456/2023 - Zanettini e OZ Minerals"
+    },
+    {
+      "data_hora": "30/05/2023 08:43",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "29/05/2023 21:53",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "29/05/2023 21:52",
+      "unidade": "IPHAN-PA",
+      "descricao": "Ao Protocolo, para envio do Ofício 456 (4425639) aos destinatários."
+    },
+    {
+      "data_hora": "22/05/2023 11:31",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "22/05/2023 11:23",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade CNA"
+    },
+    {
+      "data_hora": "22/05/2023 10:09",
+      "unidade": "CNA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "22/05/2023 10:07",
+      "unidade": "CNA",
+      "descricao": "Processo remetido pela unidade ATEC-COPEL"
+    },
+    {
+      "data_hora": "17/05/2023 15:20",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "17/05/2023 14:36",
+      "unidade": "ATEC - COPEL",
+      "descricao": "Processo remetido pela unidade CNA"
+    },
+    {
+      "data_hora": "16/05/2023 18:09",
+      "unidade": "CNA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "16/05/2023 16:14",
+      "unidade": "CNA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "11/05/2023 09:30",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "10/05/2023 18:42",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+    },
+    {
+      "data_hora": "08/05/2023 15:55",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "08/05/2023 15:54",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "08/05/2023 14:57",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "08/05/2023 09:16",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "08/05/2023 09:15",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Ofício s/n - Zanettini Arqueologia (4383984)."
+    },
+    {
+      "data_hora": "08/05/2023 09:10",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "11/04/2023 14:25",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "11/04/2023 14:18",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "11/04/2023 10:13",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "11/04/2023 09:22",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "11/04/2023 09:20",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Oficio s/n - Zanettini Arqueologia - Solicita Informações."
+    },
+    {
+      "data_hora": "11/04/2023 09:04",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "04/04/2023 12:28",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo avocado por esta Coordenação. Cotec/Iphan/PA"
+    },
+    {
+      "data_hora": "07/03/2023 15:20",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "07/03/2023 15:18",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "07/03/2023 10:08",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "07/03/2023 09:33",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "07/03/2023 09:32",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Ofício s/n - Zanettini Arqueologia (4230155)."
+    },
+    {
+      "data_hora": "07/03/2023 09:08",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "02/03/2023 15:59",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "02/03/2023 14:20",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "02/03/2023 14:15",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "02/03/2023 14:14",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Ofício Nº 153/2023/IPHAN-PA encaminhado via AR em 02/03 para empresa OZ Minerals."
+    },
+    {
+      "data_hora": "02/03/2023 09:22",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "02/03/2023 08:41",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "02/03/2023 08:39",
+      "unidade": "IPHAN-PA",
+      "descricao": "Ao Protocolo, para envio do Ofício 153 (4202177) ao Empreendedor."
+    },
+    {
+      "data_hora": "22/02/2023 13:01",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "17/02/2023 14:35",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+    },
+    {
+      "data_hora": "17/02/2023 14:22",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "À Cotec, encaminho Parecer (4118548). Quanto aos prazos, como justificativa, esclareço que o projeto analisado foi protocolado em período em que eu estava afastada em licença maternidade e foi a mim redistribuindo enquanto ainda usufruia de férias. Posteriormente, fiquei afastada amparada por atestado médico e, diante do retorno,foi necessário o alinhamento de cronograma com outras demandas que também se encontravam em atraso. Respeitosamente, Daniela Ferreira"
+    },
+    {
+      "data_hora": "07/02/2023 11:56",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "07/02/2023 11:54",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "07/02/2023 11:46",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "07/02/2023 11:39",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "07/02/2023 11:38",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Ofício s/n - Zanettini Arqueologia (4168789)."
+    },
+    {
+      "data_hora": "07/02/2023 11:32",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "16/01/2023 15:32",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "16/01/2023 15:09",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "16/01/2023 12:04",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "16/01/2023 09:24",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "16/01/2023 09:22",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Oficio s/n - Zanettini Arqueologia -Solicita Informações."
+    },
+    {
+      "data_hora": "16/01/2023 09:18",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "13/01/2023 10:34",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "À Coordenadora Técnica para conhecimento que o processo estava sobrestado com a recomendação para reabertura na data de hoje 13/01/2023."
+    },
+    {
+      "data_hora": "13/01/2023 09:38",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Remoção de sobrestamento"
+    },
+    {
+      "data_hora": "10/01/2023 15:52",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Sobrestamento. Reabrir em 13.01.2023"
+    },
+    {
+      "data_hora": "09/01/2023 09:56",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Remoção de sobrestamento"
+    },
+    {
+      "data_hora": "23/12/2022 14:36",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Sobrestamento. Reabrir em 09.01.2023 e atribuir ao técnico Carlos."
+    },
+    {
+      "data_hora": "12/12/2022 15:36",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "12/12/2022 14:53",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "12/12/2022 14:52",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "12/12/2022 13:35",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade DIVGEO"
+    },
+    {
+      "data_hora": "12/12/2022 11:53",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "12/12/2022 09:22",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "12/12/2022 09:22",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "12/12/2022 09:20",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "12/12/2022 09:20",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Ofício s/n - Zanettini Arqueologia (4040922)."
+    },
+    {
+      "data_hora": "12/12/2022 09:16",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "04/11/2022 09:45",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "04/11/2022 09:40",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "03/11/2022 15:13",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "03/11/2022 14:20",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "03/11/2022 14:17",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "03/11/2022 10:56",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "03/11/2022 10:55",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Ofício s/n - Zanettini Arqueologia (3953996)."
+    },
+    {
+      "data_hora": "03/11/2022 09:22",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Reabertura do processo na unidade"
+    },
+    {
+      "data_hora": "22/09/2022 15:13",
+      "unidade": "DIVGEO",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "22/09/2022 15:07",
+      "unidade": "DIVGEO",
+      "descricao": "Processo remetido pela unidade CNL"
+    },
+    {
+      "data_hora": "05/09/2022 12:06",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Conclusão do processo na unidade"
+    },
+    {
+      "data_hora": "05/09/2022 11:22",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "05/09/2022 10:00",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "05/09/2022 10:00",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Ofício 1079/2022 - IPHAN/PA, encaminhado via AR em 05/09 para o Sr. Glauco Garrucho."
+    },
+    {
+      "data_hora": "01/09/2022 15:18",
+      "unidade": "CNL",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "01/09/2022 15:09",
+      "unidade": "CNL",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "01/09/2022 14:48",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "01/09/2022 12:38",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Processo remetido pela unidade IPHAN-PA"
+    },
+    {
+      "data_hora": "01/09/2022 12:37",
+      "unidade": "IPHAN-PA",
+      "descricao": "Ao Protocolo, para envio do Ofício 1079 (3789526), aos destinatários."
+    },
+    {
+      "data_hora": "29/08/2022 09:07",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "29/08/2022 08:47",
+      "unidade": "IPHAN-PA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+    },
+    {
+      "data_hora": "26/08/2022 14:51",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Encaminho Parecer - Ficha de Caracterização de Atividade FCA 30/2022 (3755214). Para análise e demais considerações"
+    },
+    {
+      "data_hora": "16/08/2022 16:46",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "16/08/2022 16:17",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PROT IPHAN-PA"
+    },
+    {
+      "data_hora": "16/08/2022 16:15",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "FCA 30/2022, para análise."
+    },
+    {
+      "data_hora": "16/08/2022 15:31",
+      "unidade": "PROT IPHAN-PA",
+      "descricao": "Processo público gerado"
+    }
+  ],
+  "initialized": true,
+  "baseline_at": "2026-08-26T17:14:08+00:00",
+  "last_change_at": null
+}
