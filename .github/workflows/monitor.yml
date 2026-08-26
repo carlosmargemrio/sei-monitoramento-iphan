@@ -1,0 +1,116 @@
+name: Monitorar SEI IPHAN
+
+on:
+  schedule:
+    # Horário da Bahia: a cada 30 minutos, somente durante o período diurno.
+    # Os minutos 07 e 37 evitam a concentração de workflows no início da hora.
+    - cron: '7,37 8-19 * * *'
+      timezone: 'America/Bahia'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+# Uma nova execução aguarda a anterior terminar. Isso evita consultas simultâneas
+# ao SEI e conflitos durante a gravação dos arquivos de estado.
+concurrency:
+  group: sei-iphan-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitorar:
+    runs-on: ubuntu-latest
+    # A versão multiprocessos trata as tentativas individualmente no Python.
+    # Este limite protege apenas contra uma indisponibilidade excepcionalmente longa.
+    timeout-minutes: 45
+
+    steps:
+      - name: Obter repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Consultar todos os processos
+        id: monitor
+        shell: bash
+        run: |
+          set -euo pipefail
+          python monitor.py
+
+          CHANGES=$(python -c "import json; print(json.load(open('.monitor/result.json', encoding='utf-8')).get('changes', 0))")
+          FAILURES=$(python -c "import json; print(json.load(open('.monitor/result.json', encoding='utf-8')).get('failures', 0))")
+          PROCESS_COUNT=$(python -c "import json; print(json.load(open('.monitor/result.json', encoding='utf-8')).get('process_count', 0))")
+
+          echo "changes=$CHANGES" >> "$GITHUB_OUTPUT"
+          echo "failures=$FAILURES" >> "$GITHUB_OUTPUT"
+          echo "process_count=$PROCESS_COUNT" >> "$GITHUB_OUTPUT"
+
+          echo "Processos verificados: $PROCESS_COUNT"
+          echo "Alterações detectadas: $CHANGES"
+          echo "Processos com falha: $FAILURES"
+
+      - name: Registrar estados e resumo no GitHub
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git add data/summary.json data/processos/
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma atualização persistente para registrar."
+            exit 0
+          fi
+
+          git config user.name "sei-iphan-monitor[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "monitor: atualizar estados dos processos"
+
+          # Reaplica o commit sobre alguma alteração remota feita enquanto o
+          # workflow estava consultando o SEI, reduzindo conflitos de push.
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: Criar Issues para alterações detectadas
+        if: steps.monitor.outputs.changes != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python - <<'PY' > .monitor/issues.tsv
+          import json
+          from pathlib import Path
+
+          items = json.loads(Path('.monitor/issues.json').read_text(encoding='utf-8'))
+          for item in items:
+              title = item['title'].replace('\t', ' ').replace('\n', ' ')
+              report = item['report_path']
+              print(f"{title}\t{report}")
+          PY
+
+          while IFS=$'\t' read -r TITLE REPORT; do
+            [ -z "$TITLE" ] && continue
+            echo "Criando Issue: $TITLE"
+            gh issue create \
+              --repo "$GITHUB_REPOSITORY" \
+              --title "$TITLE" \
+              --body-file "$REPORT"
+          done < .monitor/issues.tsv
+
+      - name: Sinalizar falhas de consulta
+        if: steps.monitor.outputs.failures != '0'
+        shell: bash
+        run: |
+          echo "::error::${{ steps.monitor.outputs.failures }} processo(s) não puderam ser consultados após todas as tentativas. Os estados de erro foram registrados no painel."
+          exit 1
