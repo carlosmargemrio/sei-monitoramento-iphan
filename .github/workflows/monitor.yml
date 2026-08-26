@@ -1,0 +1,62 @@
+name: Monitorar SEI IPHAN
+
+on:
+  schedule:
+    # A cada 15 minutos, deslocado do início da hora para reduzir filas do GitHub Actions.
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: sei-iphan-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitorar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Obter repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Consultar processo e comparar estado
+        id: monitor
+        run: |
+          python monitor.py
+          CHANGED=$(python -c "import json; print(str(json.load(open('.monitor/result.json', encoding='utf-8'))['changed']).lower())")
+          echo "changed=$CHANGED" >> "$GITHUB_OUTPUT"
+
+      - name: Registrar novo estado no GitHub
+        run: |
+          if git diff --quiet -- data/state.json data/history.json; then
+            echo "Nenhuma alteração persistente para registrar."
+            exit 0
+          fi
+          git config user.name "sei-iphan-monitor[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/state.json data/history.json
+          git commit -m "monitor: atualizar estado do processo"
+          git push
+
+      - name: Criar notificação no GitHub Issues
+        if: steps.monitor.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TITLE="SEI/IPHAN: alteração no processo 01502.000270/2020-84"
+          gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITLE" --body-file .monitor/change_report.md
