@@ -1,7 +1,48 @@
 {
   "nome": "Monitor SEI/IPHAN",
-  "processo": "01502.000270/2020-84",
-  "url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7nriYM-K3kWxOqp7qEKmQOg3SuJtxzz81eZxwTY69b5=",
+  "fuso_horario": "America/Bahia",
   "historico_maximo": 100,
-  "timeout_segundos": 30
+  "timeout_segundos": 30,
+  "tentativas_por_processo": 3,
+  "espera_entre_tentativas_segundos": [
+    45,
+    90
+  ],
+  "intervalo_entre_processos_segundos": 3,
+  "monitoramento": {
+    "inicio": "08:00",
+    "fim": "20:00",
+    "intervalo_minutos": 30,
+    "execucoes": "08:07–19:37"
+  },
+  "dashboard": {
+    "atraso_apos_minutos": 75,
+    "destaque_alteracao_horas": 24
+  },
+  "processos": [
+    {
+      "id": "01502-000270-2020-84",
+      "numero": "01502.000270/2020-84",
+      "nome": "Vermelhos",
+      "grupo": "vermelhos",
+      "ativo": true,
+      "url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7nriYM-K3kWxOqp7qEKmQOg3SuJtxzz81eZxwTY69b5="
+    },
+    {
+      "id": "01402-000234-2021-20",
+      "numero": "01402.000234/2021-20",
+      "nome": "APESA",
+      "grupo": "APESA",
+      "ativo": true,
+      "url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ5dYhAl1STEP-c5nxDXONqou2154PBiZGBPM3_3D8bBq"
+    },
+    {
+      "id": "01492-000339-2022-06",
+      "numero": "01492.000339/2022-06",
+      "nome": "Santa Lúcia-PA",
+      "grupo": "Santa Lúcia-PA",
+      "ativo": true,
+      "url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7rpiEnX8V1EiwyFG_cvH5804sHUiYI4xuF8YuS0kh1k"
+    }
+  ]
 }
