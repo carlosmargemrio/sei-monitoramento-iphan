@@ -1,0 +1,18 @@
+{
+  "generated_at": null,
+  "timezone": "America/Bahia",
+  "monitoramento": {
+    "inicio": "08:00",
+    "fim": "20:00",
+    "intervalo_minutos": 30,
+    "execucoes": "08:07–19:37"
+  },
+  "dashboard": {
+    "atraso_apos_minutos": 75,
+    "destaque_alteracao_horas": 24
+  },
+  "process_count": 0,
+  "failure_count": 0,
+  "change_count": 0,
+  "processes": []
+}
