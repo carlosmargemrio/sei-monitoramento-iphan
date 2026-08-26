@@ -1,0 +1,25 @@
+name: Heartbeat mensal
+
+on:
+  schedule:
+    # 13:43 UTC no primeiro dia de cada mês (10:43 em Recife).
+    - cron: '43 13 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  heartbeat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - name: Registrar atividade mensal
+        run: |
+          date -u '+%Y-%m-%dT%H:%M:%SZ' > data/heartbeat.txt
+          git config user.name "sei-iphan-monitor[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/heartbeat.txt
+          git commit -m "chore: heartbeat mensal" || exit 0
+          git push
