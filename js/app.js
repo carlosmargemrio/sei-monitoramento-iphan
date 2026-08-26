@@ -2,6 +2,15 @@ const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 
 const DEFAULT_TZ = "America/Bahia";
+const DASHBOARD_REFRESH_MS = 60_000;
+
+let dashboardUiState = {
+  query: "",
+  filter: "all",
+};
+
+let dashboardRefreshInFlight = false;
+let dashboardRefreshTimer = null;
 
 const escapeHtml = (value = "") => String(value)
   .replaceAll("&", "&amp;")
@@ -12,13 +21,45 @@ const escapeHtml = (value = "") => String(value)
 
 async function getJSON(path, optional = false) {
   try {
-    const response = await fetch(`${path}?v=${Date.now()}`, { cache: "no-store" });
+    const separator = path.includes("?") ? "&" : "?";
+    const response = await fetch(`${path}${separator}v=${Date.now()}`, {
+      cache: "no-store",
+      headers: { "Cache-Control": "no-cache" },
+    });
     if (!response.ok) throw new Error(`Falha HTTP ${response.status}`);
     return response.json();
   } catch (error) {
     if (optional) return null;
     throw error;
   }
+}
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function getJSONRetry(path, {
+  attempts = 3,
+  delayMs = 1200,
+  optional = false,
+} = {}) {
+  let lastError = null;
+
+  for (let attempt = 1; attempt <= attempts; attempt++) {
+    try {
+      const data = await getJSON(path, false);
+      if (data !== null && data !== undefined) return data;
+    } catch (error) {
+      lastError = error;
+    }
+
+    if (attempt < attempts) {
+      await sleep(delayMs * attempt);
+    }
+  }
+
+  if (optional) return null;
+  throw lastError || new Error(`Não foi possível carregar ${path}`);
 }
 
 function fmtDate(value, fallback = "—", timeZone = DEFAULT_TZ) {
@@ -144,29 +185,50 @@ function mergeConfiguredProcesses(config, summary) {
         url: p.url,
         ativo: p.ativo !== false,
         initialized: false,
-        counts: { protocolos: 0, andamentos: 0 },
+        counts: { protocolos: null, andamentos: null },
         consecutive_failures: 0,
         ...current,
       };
     });
 }
 
-async function loadLegacyFallback(config, processes) {
-  if (processes.some(p => p.initialized)) return processes;
-  const legacy = await getJSON("data/state.json", true);
-  if (!legacy?.initialized || !config.processos?.length) return processes;
-  const first = config.processos[0];
-  return processes.map(p => p.id === first.id ? {
-    ...p,
-    initialized: true,
-    process_number: legacy.process_number,
-    source_url: legacy.source_url,
-    baseline_at: legacy.baseline_at,
-    last_change_at: legacy.last_change_at,
-    counts: legacy.counts,
-    protocolos: legacy.protocolos,
-    andamentos: legacy.andamentos,
-  } : p);
+async function hydrateDashboardProcesses(config, processes) {
+  const firstId = config.processos?.[0]?.id;
+  const legacy = await getJSONRetry("data/state.json", {
+    attempts: 2,
+    delayMs: 700,
+    optional: true,
+  });
+
+  return Promise.all(processes.map(async process => {
+    let state = await getJSONRetry(`data/processos/${process.id}/state.json`, {
+      attempts: 2,
+      delayMs: 700,
+      optional: true,
+    });
+
+    // Compatibilidade com a versão de processo único.
+    if (!state && process.id === firstId && legacy?.initialized) {
+      state = legacy;
+    }
+
+    if (!state) return process;
+
+    return {
+      ...process,
+      ...state,
+
+      // Metadados editoriais continuam vindo de config.json.
+      id: process.id,
+      numero: process.numero,
+      nome: process.nome || process.numero,
+      grupo: process.grupo || "Geral",
+      url: process.url,
+
+      initialized: Boolean(state.initialized),
+      counts: state.counts || process.counts,
+    };
+  }));
 }
 
 function setGlobalPill(status, label) {
@@ -177,8 +239,12 @@ function setGlobalPill(status, label) {
 
 function cardHtml(process, config) {
   const status = statusFor(process, config);
-  const protocols = process.counts?.protocolos ?? "—";
-  const movements = process.counts?.andamentos ?? "—";
+  const protocols = process.initialized
+    ? (process.counts?.protocolos ?? "—")
+    : "—";
+  const movements = process.initialized
+    ? (process.counts?.andamentos ?? "—")
+    : "—";
   return `
     <article class="process-card state-edge-${status.key}" data-search="${escapeHtml(`${process.numero} ${process.nome} ${process.grupo}`.toLowerCase())}" data-status="${status.key}">
       <div class="process-card-head">
@@ -206,6 +272,9 @@ function cardHtml(process, config) {
 }
 
 function renderDashboard(config, summary, processes) {
+  const preservedQuery = $("#process-search")?.value ?? dashboardUiState.query;
+  const preservedFilter = $(".filter.active")?.dataset.filter ?? dashboardUiState.filter;
+
   const statuses = processes.map(p => statusFor(p, config));
   const changes = statuses.filter(s => s.key === "change").length;
   const problems = statuses.filter(s => ["error", "delayed"].includes(s.key)).length;
@@ -241,10 +310,10 @@ function renderDashboard(config, summary, processes) {
         <input id="process-search" type="search" placeholder="Pesquisar número, nome ou grupo…" autocomplete="off">
       </label>
       <div class="filters" role="group" aria-label="Filtrar processos">
-        <button class="filter active" data-filter="all">Todos</button>
-        <button class="filter" data-filter="change">Alterados</button>
-        <button class="filter" data-filter="operational">Operacionais</button>
-        <button class="filter" data-filter="attention">Com atenção</button>
+        <button class="filter ${preservedFilter === "all" ? "active" : ""}" data-filter="all">Todos</button>
+        <button class="filter ${preservedFilter === "change" ? "active" : ""}" data-filter="change">Alterados</button>
+        <button class="filter ${preservedFilter === "operational" ? "active" : ""}" data-filter="operational">Operacionais</button>
+        <button class="filter ${preservedFilter === "attention" ? "active" : ""}" data-filter="attention">Com atenção</button>
       </div>
     </section>
 
@@ -254,9 +323,15 @@ function renderDashboard(config, summary, processes) {
     <div class="no-results" id="no-results" hidden>Nenhum processo corresponde ao filtro atual.</div>
   `;
 
+  const searchInput = $("#process-search");
+  if (searchInput) searchInput.value = preservedQuery;
+
   const applyFilters = () => {
     const query = $("#process-search").value.trim().toLowerCase();
     const selected = $(".filter.active")?.dataset.filter || "all";
+
+    dashboardUiState.query = $("#process-search").value;
+    dashboardUiState.filter = selected;
     let visible = 0;
     $$(".process-card").forEach(card => {
       const matchesText = !query || card.dataset.search.includes(query);
@@ -329,11 +404,27 @@ function recordsMovements(state) {
 }
 
 async function loadProcessData(id, config) {
-  let state = await getJSON(`data/processos/${id}/state.json`, true);
-  let history = await getJSON(`data/processos/${id}/history.json`, true);
+  let state = await getJSONRetry(`data/processos/${id}/state.json`, {
+    attempts: 3,
+    delayMs: 900,
+    optional: true,
+  });
+  let history = await getJSONRetry(`data/processos/${id}/history.json`, {
+    attempts: 2,
+    delayMs: 700,
+    optional: true,
+  });
   if (!state && config.processos?.[0]?.id === id) {
-    state = await getJSON("data/state.json", true);
-    history = await getJSON("data/history.json", true);
+    state = await getJSONRetry("data/state.json", {
+      attempts: 2,
+      delayMs: 700,
+      optional: true,
+    });
+    history = await getJSONRetry("data/history.json", {
+      attempts: 2,
+      delayMs: 700,
+      optional: true,
+    });
   }
   return { state, history: history || [] };
 }
@@ -347,7 +438,7 @@ async function renderDetail(config, process) {
     process_name: process.nome || process.numero,
     group: process.grupo || "Geral",
     source_url: process.url,
-    counts: { protocolos: 0, andamentos: 0 },
+    counts: { protocolos: null, andamentos: null },
     consecutive_failures: 0,
     ...(state || {}),
   };
@@ -430,12 +521,74 @@ async function loadWorkflowStatus(config, processes) {
   }
 }
 
+async function loadDashboardSnapshot(config) {
+  const summary = await getJSONRetry("data/summary.json", {
+    attempts: 3,
+    delayMs: 1000,
+    optional: true,
+  });
+
+  let processes = mergeConfiguredProcesses(config, summary);
+
+  // O resumo é útil, mas cada state.json é a fonte autoritativa para o card.
+  // Isso evita que um summary.json temporariamente defasado mostre 0/0.
+  processes = await hydrateDashboardProcesses(config, processes);
+
+  return { summary, processes };
+}
+
+async function refreshDashboard(config, { checkWorkflow = false } = {}) {
+  if (dashboardRefreshInFlight) return;
+  if (new URLSearchParams(window.location.search).get("processo")) return;
+
+  dashboardRefreshInFlight = true;
+
+  try {
+    const { summary, processes } = await loadDashboardSnapshot(config);
+    renderDashboard(config, summary, processes);
+
+    if (checkWorkflow) {
+      loadWorkflowStatus(config, processes);
+    }
+  } catch (error) {
+    console.warn("Atualização automática do painel não concluída:", error);
+  } finally {
+    dashboardRefreshInFlight = false;
+  }
+}
+
+function startDashboardAutoRefresh(config) {
+  if (dashboardRefreshTimer) {
+    clearInterval(dashboardRefreshTimer);
+  }
+
+  dashboardRefreshTimer = setInterval(() => {
+    if (document.visibilityState === "visible") {
+      refreshDashboard(config);
+    }
+  }, DASHBOARD_REFRESH_MS);
+
+  // Ao retornar para a aba/app, sincroniza imediatamente.
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") {
+      refreshDashboard(config);
+    }
+  });
+
+  // Importante em celulares e no botão "voltar", quando a página pode vir do BFCache.
+  window.addEventListener("pageshow", event => {
+    if (event.persisted) {
+      refreshDashboard(config);
+    }
+  });
+}
+
 async function init() {
   try {
-    const config = await getJSON("config.json");
-    const summary = await getJSON("data/summary.json", true);
-    let processes = mergeConfiguredProcesses(config, summary);
-    processes = await loadLegacyFallback(config, processes);
+    const config = await getJSONRetry("config.json", {
+      attempts: 3,
+      delayMs: 800,
+    });
 
     const selectedId = new URLSearchParams(window.location.search).get("processo");
     if (selectedId) {
@@ -447,8 +600,10 @@ async function init() {
       }
       await renderDetail(config, process);
     } else {
+      const { summary, processes } = await loadDashboardSnapshot(config);
       renderDashboard(config, summary, processes);
       loadWorkflowStatus(config, processes);
+      startDashboardAutoRefresh(config);
     }
   } catch (error) {
     console.error(error);
