@@ -2,14 +2,19 @@ name: Monitorar SEI IPHAN
 
 on:
   schedule:
-    # A cada 15 minutos, deslocado do início da hora para reduzir filas do GitHub Actions.
-    - cron: '7,22,37,52 * * * *'
+    # Horário da Bahia: verificações a cada 30 minutos, das 08:07 às 19:37.
+    # Os minutos 07 e 37 evitam a concentração de execuções no início/meio da hora.
+    - cron: '7,37 8-19 * * *'
+      timezone: 'America/Bahia'
+
+  # Mantém a execução manual pela aba Actions.
   workflow_dispatch:
 
 permissions:
   contents: write
   issues: write
 
+# Evita execuções simultâneas do mesmo monitor.
 concurrency:
   group: sei-iphan-monitor
   cancel-in-progress: false
@@ -17,7 +22,9 @@ concurrency:
 jobs:
   monitorar:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+
+    # Limite global de segurança contra indisponibilidades prolongadas.
+    timeout-minutes: 12
 
     steps:
       - name: Obter repositório
@@ -36,10 +43,51 @@ jobs:
 
       - name: Consultar processo e comparar estado
         id: monitor
+        shell: bash
         run: |
-          python monitor.py
+          set -uo pipefail
+
+          SUCESSO=false
+
+          for TENTATIVA in 1 2 3; do
+            echo "=============================================="
+            echo "Tentativa ${TENTATIVA} de 3"
+            echo "=============================================="
+
+            # Cada tentativa pode durar no máximo 3 minutos.
+            # O monitor.py já possui retries HTTP internos; esta camada adicional
+            # lida com indisponibilidades transitórias mais prolongadas.
+            if timeout 180s python monitor.py; then
+              SUCESSO=true
+              break
+            else
+              CODIGO=$?
+              echo "::warning::Tentativa ${TENTATIVA} falhou (código ${CODIGO})."
+            fi
+
+            if [ "$TENTATIVA" -eq 1 ]; then
+              echo "Aguardando 45 segundos antes da nova tentativa..."
+              sleep 45
+            elif [ "$TENTATIVA" -eq 2 ]; then
+              echo "Aguardando 90 segundos antes da última tentativa..."
+              sleep 90
+            fi
+          done
+
+          if [ "$SUCESSO" != "true" ]; then
+            echo "::error::Não foi possível consultar e interpretar o SEI/IPHAN após 3 tentativas."
+            exit 1
+          fi
+
           CHANGED=$(python -c "import json; print(str(json.load(open('.monitor/result.json', encoding='utf-8'))['changed']).lower())")
+          CHECKED_AT=$(python -c "import json; print(json.load(open('.monitor/result.json', encoding='utf-8')).get('checked_at', ''))")
+
           echo "changed=$CHANGED" >> "$GITHUB_OUTPUT"
+          echo "checked_at=$CHECKED_AT" >> "$GITHUB_OUTPUT"
+
+          echo "Consulta concluída com sucesso."
+          echo "Alteração detectada: $CHANGED"
+          echo "Verificado em: $CHECKED_AT"
 
       - name: Registrar novo estado no GitHub
         run: |
@@ -47,8 +95,10 @@ jobs:
             echo "Nenhuma alteração persistente para registrar."
             exit 0
           fi
+
           git config user.name "sei-iphan-monitor[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add data/state.json data/history.json
           git commit -m "monitor: atualizar estado do processo"
           git push
@@ -59,4 +109,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           TITLE="SEI/IPHAN: alteração no processo 01502.000270/2020-84"
-          gh issue create --repo "$GITHUB_REPOSITORY" --title "$TITLE" --body-file .monitor/change_report.md
+
+          gh issue create \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "$TITLE" \
+            --body-file .monitor/change_report.md
