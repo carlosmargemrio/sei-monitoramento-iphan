@@ -49,78 +49,225 @@ def clean(value: str) -> str:
     return " ".join(value.replace("\xa0", " ").split()).strip()
 
 
-def table_rows(table) -> list[list[str]]:
+def direct_cells(tr) -> list[str]:
+    """Lê somente as células pertencentes diretamente ao <tr>."""
+    return [
+        clean(cell.get_text(" ", strip=True))
+        for cell in tr.find_all(["th", "td"], recursive=False)
+    ]
+
+
+def find_table(soup: BeautifulSoup, required_headers: list[str]):
+    """
+    Localiza a linha de cabeçalho e devolve a tabela MAIS PRÓXIMA dela.
+
+    Isso evita escolher uma tabela externa que apenas contenha, de forma
+    aninhada, as tabelas de Protocolos/Andamentos do SEI.
+    """
+    required = [norm(x) for x in required_headers]
+
+    for tr in soup.find_all("tr"):
+        cells = direct_cells(tr)
+        if len(cells) < len(required):
+            continue
+        normalized = [norm(c) for c in cells]
+        if all(any(req in cell for cell in normalized) for req in required):
+            table = tr.find_parent("table")
+            if table is not None:
+                return table, tr, cells
+
+    raise RuntimeError(f"Tabela não localizada. Cabeçalhos esperados: {required_headers}")
+
+
+def find_column(headers: list[str], names: list[str]) -> int:
+    """Encontra uma coluna pelo nome, priorizando correspondência exata."""
+    normalized = [norm(h) for h in headers]
+    wanted = [norm(n) for n in names]
+
+    for candidate in wanted:
+        for idx, header in enumerate(normalized):
+            if header == candidate:
+                return idx
+
+    for candidate in wanted:
+        for idx, header in enumerate(normalized):
+            if candidate in header:
+                return idx
+
+    raise RuntimeError(
+        f"Coluna não localizada. Esperado um de {names}; cabeçalho recebido: {headers}"
+    )
+
+
+def rows_after_header(table, header_tr) -> list[list[str]]:
+    """
+    Retorna apenas linhas da tabela encontrada, excluindo <tr> de tabelas
+    aninhadas. Funciona com ou sem thead/tbody.
+    """
     rows: list[list[str]] = []
+    found_header = False
+
     for tr in table.find_all("tr"):
-        cells = tr.find_all(["th", "td"], recursive=False)
-        if not cells:
-            cells = tr.find_all(["th", "td"])
-        values = [clean(cell.get_text(" ", strip=True)) for cell in cells]
+        if tr.find_parent("table") is not table:
+            continue
+        if tr is header_tr:
+            found_header = True
+            continue
+        if not found_header:
+            continue
+
+        values = direct_cells(tr)
         if values and any(values):
             rows.append(values)
+
     return rows
 
 
-def find_table(soup: BeautifulSoup, required_headers: list[str]) -> list[list[str]]:
-    required = [norm(x) for x in required_headers]
-    candidates: list[tuple[int, list[list[str]]]] = []
+def is_date(value: str) -> bool:
+    return bool(re.search(r"\b\d{1,2}/\d{1,2}/\d{4}\b", value))
 
-    for table in soup.find_all("table"):
-        rows = table_rows(table)
-        if not rows:
+
+def is_datetime(value: str) -> bool:
+    return bool(
+        re.search(r"\b\d{1,2}/\d{1,2}/\d{4}(?:\s+\d{1,2}:\d{2})?\b", value)
+    )
+
+
+def protocol_from_row(values: list[str], indexes: dict[str, int]) -> dict[str, str] | None:
+    """
+    Interpreta uma linha de protocolo. Primeiro usa os índices do cabeçalho;
+    se o SEI inserir uma coluna técnica vazia/ícone antes dos dados, procura
+    automaticamente o bloco Documento + Tipo + Data + Inclusão + Unidade.
+    """
+    try:
+        documento = values[indexes["documento"]]
+        tipo = values[indexes["tipo"]]
+        data = values[indexes["data"]]
+        data_inclusao = values[indexes["data_inclusao"]]
+        unidade = values[indexes["unidade"]]
+
+        if re.search(r"\d", documento) and is_date(data) and is_date(data_inclusao):
+            return {
+                "documento": documento,
+                "tipo": tipo,
+                "data": data,
+                "data_inclusao": data_inclusao,
+                "unidade": unidade,
+            }
+    except IndexError:
+        pass
+
+    # Fallback para eventuais colunas técnicas extras do SEI.
+    for start in range(0, max(0, len(values) - 4)):
+        bloco = values[start:start + 5]
+        if len(bloco) < 5:
             continue
-        for idx, row in enumerate(rows[:5]):
-            normalized = [norm(c) for c in row]
-            if all(any(req in cell for cell in normalized) for req in required):
-                candidates.append((idx, rows))
-                break
+        documento, tipo, data, data_inclusao, unidade = bloco
+        if (
+            re.search(r"\d", documento)
+            and is_date(data)
+            and is_date(data_inclusao)
+            and unidade
+        ):
+            return {
+                "documento": documento,
+                "tipo": tipo,
+                "data": data,
+                "data_inclusao": data_inclusao,
+                "unidade": unidade,
+            }
 
-    if not candidates:
-        raise RuntimeError(f"Tabela não localizada. Cabeçalhos esperados: {required_headers}")
+    return None
 
-    header_index, rows = max(candidates, key=lambda item: len(item[1]))
-    return rows[header_index:]
+
+def andamento_from_row(values: list[str], indexes: dict[str, int]) -> dict[str, str] | None:
+    try:
+        data_hora = values[indexes["data_hora"]]
+        unidade = values[indexes["unidade"]]
+        descricao = values[indexes["descricao"]]
+        if is_datetime(data_hora) and unidade and descricao:
+            return {
+                "data_hora": data_hora,
+                "unidade": unidade,
+                "descricao": descricao,
+            }
+    except IndexError:
+        pass
+
+    # Fallback para eventual coluna técnica anterior à data/hora.
+    for start in range(0, max(0, len(values) - 2)):
+        bloco = values[start:start + 3]
+        if len(bloco) < 3:
+            continue
+        data_hora, unidade, descricao = bloco
+        if is_datetime(data_hora) and unidade and descricao:
+            return {
+                "data_hora": data_hora,
+                "unidade": unidade,
+                "descricao": descricao,
+            }
+
+    return None
 
 
 def parse_protocolos(soup: BeautifulSoup) -> list[dict[str, str]]:
-    rows = find_table(soup, ["Processo", "Tipo", "Data", "Unidade"])
+    table, header_tr, headers = find_table(
+        soup, ["Processo", "Tipo", "Data", "Unidade"]
+    )
+
+    indexes = {
+        "documento": find_column(headers, ["Processo / Documento", "Processo", "Documento"]),
+        "tipo": find_column(headers, ["Tipo"]),
+        "data": find_column(headers, ["Data"]),
+        "data_inclusao": find_column(headers, ["Data de Inclusão", "Data de Inclusao"]),
+        "unidade": find_column(headers, ["Unidade"]),
+    }
+
+    data_rows = rows_after_header(table, header_tr)
     result: list[dict[str, str]] = []
-    for row in rows[1:]:
-        if len(row) < 5:
-            continue
-        documento, tipo, data, data_inclusao, unidade = row[:5]
-        if not re.search(r"\d", documento):
-            continue
-        result.append({
-            "documento": documento,
-            "tipo": tipo,
-            "data": data,
-            "data_inclusao": data_inclusao,
-            "unidade": unidade,
-        })
+
+    for values in data_rows:
+        parsed = protocol_from_row(values, indexes)
+        if parsed:
+            result.append(parsed)
+
     if not result:
-        raise RuntimeError("A tabela de Protocolos foi localizada, mas nenhum protocolo pôde ser interpretado.")
+        amostra = data_rows[:3]
+        raise RuntimeError(
+            "A tabela de Protocolos foi localizada, mas nenhum protocolo pôde ser "
+            f"interpretado. Cabeçalho={headers!r}; amostra_linhas={amostra!r}"
+        )
+
     return result
 
 
 def parse_andamentos(soup: BeautifulSoup) -> list[dict[str, str]]:
-    rows = find_table(soup, ["Data/Hora", "Unidade", "Descrição"])
-    result: list[dict[str, str]] = []
-    for row in rows[1:]:
-        if len(row) < 3:
-            continue
-        data_hora, unidade, descricao = row[:3]
-        if not re.search(r"\d{1,2}/\d{1,2}/\d{4}", data_hora):
-            continue
-        result.append({
-            "data_hora": data_hora,
-            "unidade": unidade,
-            "descricao": descricao,
-        })
-    if not result:
-        raise RuntimeError("A tabela de Andamentos foi localizada, mas nenhum andamento pôde ser interpretado.")
-    return result
+    table, header_tr, headers = find_table(
+        soup, ["Data/Hora", "Unidade", "Descrição"]
+    )
 
+    indexes = {
+        "data_hora": find_column(headers, ["Data/Hora", "Data / Hora"]),
+        "unidade": find_column(headers, ["Unidade"]),
+        "descricao": find_column(headers, ["Descrição", "Descricao"]),
+    }
+
+    data_rows = rows_after_header(table, header_tr)
+    result: list[dict[str, str]] = []
+
+    for values in data_rows:
+        parsed = andamento_from_row(values, indexes)
+        if parsed:
+            result.append(parsed)
+
+    if not result:
+        amostra = data_rows[:3]
+        raise RuntimeError(
+            "A tabela de Andamentos foi localizada, mas nenhum andamento pôde ser "
+            f"interpretado. Cabeçalho={headers!r}; amostra_linhas={amostra!r}"
+        )
+
+    return result
 
 def fetch_html(url: str, timeout: int) -> bytes:
     retry = Retry(
