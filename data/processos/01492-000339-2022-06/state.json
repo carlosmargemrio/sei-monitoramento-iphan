@@ -5,14 +5,14 @@
   "group": "Santa Lúcia-PA",
   "source_url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7rpiEnX8V1EiwyFG_cvH5804sHUiYI4xuF8YuS0kh1k",
   "active": true,
-  "last_attempt_at": "2026-08-28T05:36:34+00:00",
-  "last_success_at": "2026-08-27T21:00:04+00:00",
-  "last_error_at": "2026-08-28T05:36:34+00:00",
-  "last_error": "ConnectTimeout: HTTPSConnectionPool(host='sei.iphan.gov.br', port=443): Max retries exceeded with url: /sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7rpiEnX8V1EiwyFG_cvH5804sHUiYI4xuF8YuS0kh1k (Caused by Connec…",
-  "consecutive_failures": 1,
+  "last_attempt_at": "2026-08-28T21:21:17+00:00",
+  "last_success_at": "2026-08-28T21:21:17+00:00",
+  "last_error_at": null,
+  "last_error": null,
+  "consecutive_failures": 0,
   "counts": {
-    "protocolos": 425,
-    "andamentos": 494
+    "protocolos": 443,
+    "andamentos": 504
   },
   "protocolos": [
     {
@@ -2989,9 +2989,185 @@
       "data": "25/08/2026",
       "data_inclusao": "25/08/2026",
       "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7781599",
+      "tipo": "Recibo",
+      "data": "28/08/2026",
+      "data_inclusao": "28/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7781604",
+      "tipo": "Requerimento",
+      "data": "28/08/2026",
+      "data_inclusao": "28/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7781609",
+      "tipo": "Relatório de Licenciamento Ambiental",
+      "data": "28/08/2026",
+      "data_inclusao": "28/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7781610",
+      "tipo": "Recibo",
+      "data": "28/08/2026",
+      "data_inclusao": "28/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7781612",
+      "tipo": "Dados pessoais ou dados pessoais sensíveis",
+      "data": "28/08/2026",
+      "data_inclusao": "28/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7781617",
+      "tipo": "Anotação de Responsabilidade Técnica (ART)",
+      "data": "28/08/2026",
+      "data_inclusao": "28/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7781622",
+      "tipo": "Requerimento",
+      "data": "28/08/2026",
+      "data_inclusao": "28/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7781624",
+      "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+      "data": "28/08/2026",
+      "data_inclusao": "28/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7781630",
+      "tipo": "Dados pessoais ou dados pessoais sensíveis",
+      "data": "28/08/2026",
+      "data_inclusao": "28/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7781635",
+      "tipo": "Recibo",
+      "data": "28/08/2026",
+      "data_inclusao": "28/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7781637",
+      "tipo": "Requerimento",
+      "data": "28/08/2026",
+      "data_inclusao": "28/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7781646",
+      "tipo": "Recibo",
+      "data": "28/08/2026",
+      "data_inclusao": "28/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7781657",
+      "tipo": "Dados pessoais ou dados pessoais sensíveis",
+      "data": "28/08/2026",
+      "data_inclusao": "28/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7781666",
+      "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+      "data": "28/08/2026",
+      "data_inclusao": "28/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7781677",
+      "tipo": "Requerimento",
+      "data": "28/08/2026",
+      "data_inclusao": "28/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7781707",
+      "tipo": "Dados pessoais ou dados pessoais sensíveis",
+      "data": "28/08/2026",
+      "data_inclusao": "28/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7781709",
+      "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+      "data": "28/08/2026",
+      "data_inclusao": "28/08/2026",
+      "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7781728",
+      "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+      "data": "28/08/2026",
+      "data_inclusao": "28/08/2026",
+      "unidade": "COTEC IPHAN-PA"
     }
   ],
   "andamentos": [
+    {
+      "data_hora": "28/08/2026 13:44",
+      "unidade": "CGM",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "28/08/2026 13:19",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "28/08/2026 12:20",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "28/08/2026 12:12",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT IPHAN"
+    },
+    {
+      "data_hora": "28/08/2026 11:52",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "28/08/2026 11:48",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+    },
+    {
+      "data_hora": "28/08/2026 11:48",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+    },
+    {
+      "data_hora": "28/08/2026 11:46",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+    },
+    {
+      "data_hora": "28/08/2026 11:46",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+    },
+    {
+      "data_hora": "28/08/2026 11:45",
+      "unidade": "PROT IPHAN",
+      "descricao": "Reabertura do processo na unidade"
+    },
     {
       "data_hora": "21/08/2026 14:48",
       "unidade": "COTEC IPHAN-PA",
@@ -5465,5 +5641,5 @@
   ],
   "initialized": true,
   "baseline_at": "2026-08-26T17:14:08+00:00",
-  "last_change_at": null
+  "last_change_at": "2026-08-28T21:21:17+00:00"
 }
