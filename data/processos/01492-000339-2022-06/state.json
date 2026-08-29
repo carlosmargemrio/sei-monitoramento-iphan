@@ -5,11 +5,11 @@
   "group": "Santa Lúcia-PA",
   "source_url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7rpiEnX8V1EiwyFG_cvH5804sHUiYI4xuF8YuS0kh1k",
   "active": true,
-  "last_attempt_at": "2026-08-29T15:44:56+00:00",
+  "last_attempt_at": "2026-08-29T19:01:03+00:00",
   "last_success_at": "2026-08-28T21:21:17+00:00",
-  "last_error_at": "2026-08-29T15:44:56+00:00",
+  "last_error_at": "2026-08-29T19:01:03+00:00",
   "last_error": "ConnectionError: HTTPSConnectionPool(host='sei.iphan.gov.br', port=443): Max retries exceeded with url: /sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7rpiEnX8V1EiwyFG_cvH5804sHUiYI4xuF8YuS0kh1k (Caused by NameR…",
-  "consecutive_failures": 2,
+  "consecutive_failures": 3,
   "counts": {
     "protocolos": 443,
     "andamentos": 504

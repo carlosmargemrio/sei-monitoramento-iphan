@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T15:48:05+00:00",
+  "generated_at": "2026-08-29T19:04:13+00:00",
   "timezone": "America/Bahia",
   "monitoramento": {
     "inicio": "08:00",
@@ -25,11 +25,11 @@
       "initialized": true,
       "baseline_at": "2026-08-26T02:14:23+00:00",
       "last_change_at": null,
-      "last_attempt_at": "2026-08-29T15:35:14+00:00",
+      "last_attempt_at": "2026-08-29T18:51:19+00:00",
       "last_success_at": "2026-08-28T21:21:00+00:00",
-      "last_error_at": "2026-08-29T15:35:14+00:00",
+      "last_error_at": "2026-08-29T18:51:19+00:00",
       "last_error": "ConnectionError: HTTPSConnectionPool(host='sei.iphan.gov.br', port=443): Max retries exceeded with url: /sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7nriYM-K3kWxOqp7qEKmQOg3SuJtxzz81eZxwTY69b5= (Caused by Name…",
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "counts": {
         "protocolos": 185,
         "andamentos": 224
@@ -46,11 +46,11 @@
       "initialized": true,
       "baseline_at": "2026-08-26T17:14:02+00:00",
       "last_change_at": null,
-      "last_attempt_at": "2026-08-29T15:38:28+00:00",
+      "last_attempt_at": "2026-08-29T18:54:32+00:00",
       "last_success_at": "2026-08-28T21:21:06+00:00",
-      "last_error_at": "2026-08-29T15:38:28+00:00",
+      "last_error_at": "2026-08-29T18:54:32+00:00",
       "last_error": "ConnectionError: HTTPSConnectionPool(host='sei.iphan.gov.br', port=443): Max retries exceeded with url: /sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ5dYhAl1STEP-c5nxDXONqou2154PBiZGBPM3_3D8bBq (Caused by NameR…",
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "counts": {
         "protocolos": 319,
         "andamentos": 406
@@ -67,11 +67,11 @@
       "initialized": true,
       "baseline_at": "2026-08-26T17:26:07+00:00",
       "last_change_at": null,
-      "last_attempt_at": "2026-08-29T15:41:40+00:00",
+      "last_attempt_at": "2026-08-29T18:57:48+00:00",
       "last_success_at": "2026-08-28T21:21:12+00:00",
-      "last_error_at": "2026-08-29T15:41:40+00:00",
+      "last_error_at": "2026-08-29T18:57:48+00:00",
       "last_error": "ConnectionError: HTTPSConnectionPool(host='sei.iphan.gov.br', port=443): Max retries exceeded with url: /sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ3dZA-OsGYoznwkFQeG-33wfqRRQE61P3d26ALogAy88 (Caused by NameR…",
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "counts": {
         "protocolos": 97,
         "andamentos": 112
@@ -88,11 +88,11 @@
       "initialized": true,
       "baseline_at": "2026-08-26T17:14:08+00:00",
       "last_change_at": "2026-08-28T21:21:17+00:00",
-      "last_attempt_at": "2026-08-29T15:44:56+00:00",
+      "last_attempt_at": "2026-08-29T19:01:03+00:00",
       "last_success_at": "2026-08-28T21:21:17+00:00",
-      "last_error_at": "2026-08-29T15:44:56+00:00",
+      "last_error_at": "2026-08-29T19:01:03+00:00",
       "last_error": "ConnectionError: HTTPSConnectionPool(host='sei.iphan.gov.br', port=443): Max retries exceeded with url: /sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7rpiEnX8V1EiwyFG_cvH5804sHUiYI4xuF8YuS0kh1k (Caused by NameR…",
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "counts": {
         "protocolos": 443,
         "andamentos": 504
