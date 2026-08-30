@@ -5,11 +5,11 @@
   "group": "Santa Lúcia-PA",
   "source_url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7rpiEnX8V1EiwyFG_cvH5804sHUiYI4xuF8YuS0kh1k",
   "active": true,
-  "last_attempt_at": "2026-08-30T00:15:50+00:00",
+  "last_attempt_at": "2026-08-30T15:34:54+00:00",
   "last_success_at": "2026-08-30T00:15:50+00:00",
-  "last_error_at": null,
-  "last_error": null,
-  "consecutive_failures": 0,
+  "last_error_at": "2026-08-30T15:34:54+00:00",
+  "last_error": "ConnectTimeout: HTTPSConnectionPool(host='sei.iphan.gov.br', port=443): Max retries exceeded with url: /sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7rpiEnX8V1EiwyFG_cvH5804sHUiYI4xuF8YuS0kh1k (Caused by Connec…",
+  "consecutive_failures": 1,
   "counts": {
     "protocolos": 443,
     "andamentos": 504
