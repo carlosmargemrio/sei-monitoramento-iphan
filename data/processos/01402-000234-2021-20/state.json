@@ -5,11 +5,11 @@
   "group": "APESA",
   "source_url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ5dYhAl1STEP-c5nxDXONqou2154PBiZGBPM3_3D8bBq",
   "active": true,
-  "last_attempt_at": "2026-08-30T15:24:15+00:00",
-  "last_success_at": "2026-08-30T00:15:39+00:00",
-  "last_error_at": "2026-08-30T15:24:15+00:00",
-  "last_error": "ConnectTimeout: HTTPSConnectionPool(host='sei.iphan.gov.br', port=443): Max retries exceeded with url: /sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ5dYhAl1STEP-c5nxDXONqou2154PBiZGBPM3_3D8bBq (Caused by Connec…",
-  "consecutive_failures": 1,
+  "last_attempt_at": "2026-08-30T18:48:04+00:00",
+  "last_success_at": "2026-08-30T18:48:04+00:00",
+  "last_error_at": null,
+  "last_error": null,
+  "consecutive_failures": 0,
   "counts": {
     "protocolos": 319,
     "andamentos": 406
