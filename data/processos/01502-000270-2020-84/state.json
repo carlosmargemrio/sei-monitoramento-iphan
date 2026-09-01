@@ -5,11 +5,11 @@
   "group": "vermelhos",
   "source_url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7nriYM-K3kWxOqp7qEKmQOg3SuJtxzz81eZxwTY69b5=",
   "active": true,
-  "last_attempt_at": "2026-09-01T18:48:16+00:00",
+  "last_attempt_at": "2026-09-01T21:44:18+00:00",
   "last_success_at": "2026-09-01T18:48:16+00:00",
-  "last_error_at": null,
-  "last_error": null,
-  "consecutive_failures": 0,
+  "last_error_at": "2026-09-01T21:44:18+00:00",
+  "last_error": "ConnectTimeout: HTTPSConnectionPool(host='sei.iphan.gov.br', port=443): Max retries exceeded with url: /sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7nriYM-K3kWxOqp7qEKmQOg3SuJtxzz81eZxwTY69b5= (Caused by Conne…",
+  "consecutive_failures": 1,
   "counts": {
     "protocolos": 185,
     "andamentos": 224
