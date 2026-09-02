@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T22:05:34+00:00",
+  "generated_at": "2026-09-02T00:05:54+00:00",
   "timezone": "America/Bahia",
   "monitoramento": {
     "inicio": "08:00",
@@ -12,7 +12,7 @@
     "destaque_alteracao_horas": 24
   },
   "process_count": 4,
-  "failure_count": 4,
+  "failure_count": 0,
   "change_count": 0,
   "processes": [
     {
@@ -25,11 +25,11 @@
       "initialized": true,
       "baseline_at": "2026-08-26T02:14:23+00:00",
       "last_change_at": null,
-      "last_attempt_at": "2026-09-01T21:44:18+00:00",
-      "last_success_at": "2026-09-01T18:48:16+00:00",
-      "last_error_at": "2026-09-01T21:44:18+00:00",
-      "last_error": "ConnectTimeout: HTTPSConnectionPool(host='sei.iphan.gov.br', port=443): Max retries exceeded with url: /sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7nriYM-K3kWxOqp7qEKmQOg3SuJtxzz81eZxwTY69b5= (Caused by Conne…",
-      "consecutive_failures": 1,
+      "last_attempt_at": "2026-09-02T00:05:34+00:00",
+      "last_success_at": "2026-09-02T00:05:34+00:00",
+      "last_error_at": null,
+      "last_error": null,
+      "consecutive_failures": 0,
       "counts": {
         "protocolos": 185,
         "andamentos": 224
@@ -46,11 +46,11 @@
       "initialized": true,
       "baseline_at": "2026-08-26T17:14:02+00:00",
       "last_change_at": null,
-      "last_attempt_at": "2026-09-01T21:49:39+00:00",
-      "last_success_at": "2026-09-01T18:48:21+00:00",
-      "last_error_at": "2026-09-01T21:49:39+00:00",
-      "last_error": "ConnectTimeout: HTTPSConnectionPool(host='sei.iphan.gov.br', port=443): Max retries exceeded with url: /sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ5dYhAl1STEP-c5nxDXONqou2154PBiZGBPM3_3D8bBq (Caused by Connec…",
-      "consecutive_failures": 1,
+      "last_attempt_at": "2026-09-02T00:05:40+00:00",
+      "last_success_at": "2026-09-02T00:05:40+00:00",
+      "last_error_at": null,
+      "last_error": null,
+      "consecutive_failures": 0,
       "counts": {
         "protocolos": 319,
         "andamentos": 406
@@ -67,11 +67,11 @@
       "initialized": true,
       "baseline_at": "2026-08-26T17:26:07+00:00",
       "last_change_at": null,
-      "last_attempt_at": "2026-09-01T21:54:59+00:00",
-      "last_success_at": "2026-09-01T18:48:26+00:00",
-      "last_error_at": "2026-09-01T21:54:59+00:00",
-      "last_error": "ConnectTimeout: HTTPSConnectionPool(host='sei.iphan.gov.br', port=443): Max retries exceeded with url: /sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ3dZA-OsGYoznwkFQeG-33wfqRRQE61P3d26ALogAy88 (Caused by Connec…",
-      "consecutive_failures": 1,
+      "last_attempt_at": "2026-09-02T00:05:46+00:00",
+      "last_success_at": "2026-09-02T00:05:46+00:00",
+      "last_error_at": null,
+      "last_error": null,
+      "consecutive_failures": 0,
       "counts": {
         "protocolos": 97,
         "andamentos": 112
@@ -88,11 +88,11 @@
       "initialized": true,
       "baseline_at": "2026-08-26T17:14:08+00:00",
       "last_change_at": "2026-08-31T22:46:49+00:00",
-      "last_attempt_at": "2026-09-01T22:00:19+00:00",
-      "last_success_at": "2026-09-01T18:48:30+00:00",
-      "last_error_at": "2026-09-01T22:00:19+00:00",
-      "last_error": "ConnectTimeout: HTTPSConnectionPool(host='sei.iphan.gov.br', port=443): Max retries exceeded with url: /sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7rpiEnX8V1EiwyFG_cvH5804sHUiYI4xuF8YuS0kh1k (Caused by Connec…",
-      "consecutive_failures": 1,
+      "last_attempt_at": "2026-09-02T00:05:50+00:00",
+      "last_success_at": "2026-09-02T00:05:50+00:00",
+      "last_error_at": null,
+      "last_error": null,
+      "consecutive_failures": 0,
       "counts": {
         "protocolos": 445,
         "andamentos": 506
