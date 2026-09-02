@@ -1,5 +1,142 @@
 [
   {
+    "detected_at": "2026-09-02T21:46:38+00:00",
+    "summary": {
+      "protocolos_adicionados": 0,
+      "protocolos_modificados": 6,
+      "protocolos_removidos": 1,
+      "andamentos_adicionados": 1,
+      "andamentos_removidos": 0
+    },
+    "counts": {
+      "protocolos": 444,
+      "andamentos": 507
+    },
+    "details": {
+      "protocolos": {
+        "added": [],
+        "removed": [
+          {
+            "documento": "7787950",
+            "tipo": "Ofício 1592",
+            "data": "31/08/2026",
+            "data_inclusao": "31/08/2026",
+            "unidade": "COTEC IPHAN-PA"
+          }
+        ],
+        "modified": [
+          {
+            "antes": {
+              "documento": "7781617",
+              "tipo": "Anotação de Responsabilidade Técnica (ART)",
+              "data": "28/08/2026",
+              "data_inclusao": "28/08/2026",
+              "unidade": "COTEC IPHAN-PA"
+            },
+            "depois": {
+              "documento": "7781617",
+              "tipo": "Anexo",
+              "data": "28/08/2026",
+              "data_inclusao": "28/08/2026",
+              "unidade": "COTEC IPHAN-PA"
+            }
+          },
+          {
+            "antes": {
+              "documento": "7781630",
+              "tipo": "Dados pessoais ou dados pessoais sensíveis",
+              "data": "28/08/2026",
+              "data_inclusao": "28/08/2026",
+              "unidade": "COTEC IPHAN-PA"
+            },
+            "depois": {
+              "documento": "7781630",
+              "tipo": "Carta Externa",
+              "data": "28/08/2026",
+              "data_inclusao": "28/08/2026",
+              "unidade": "COTEC IPHAN-PA"
+            }
+          },
+          {
+            "antes": {
+              "documento": "7781657",
+              "tipo": "Dados pessoais ou dados pessoais sensíveis",
+              "data": "28/08/2026",
+              "data_inclusao": "28/08/2026",
+              "unidade": "COTEC IPHAN-PA"
+            },
+            "depois": {
+              "documento": "7781657",
+              "tipo": "Carta Externa",
+              "data": "28/08/2026",
+              "data_inclusao": "28/08/2026",
+              "unidade": "COTEC IPHAN-PA"
+            }
+          },
+          {
+            "antes": {
+              "documento": "7781707",
+              "tipo": "Dados pessoais ou dados pessoais sensíveis",
+              "data": "28/08/2026",
+              "data_inclusao": "28/08/2026",
+              "unidade": "COTEC IPHAN-PA"
+            },
+            "depois": {
+              "documento": "7781707",
+              "tipo": "Carta Externa",
+              "data": "28/08/2026",
+              "data_inclusao": "28/08/2026",
+              "unidade": "COTEC IPHAN-PA"
+            }
+          },
+          {
+            "antes": {
+              "documento": "7781709",
+              "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+              "data": "28/08/2026",
+              "data_inclusao": "28/08/2026",
+              "unidade": "COTEC IPHAN-PA"
+            },
+            "depois": {
+              "documento": "7781709",
+              "tipo": "Ficha",
+              "data": "28/08/2026",
+              "data_inclusao": "28/08/2026",
+              "unidade": "COTEC IPHAN-PA"
+            }
+          },
+          {
+            "antes": {
+              "documento": "7781728",
+              "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+              "data": "28/08/2026",
+              "data_inclusao": "28/08/2026",
+              "unidade": "COTEC IPHAN-PA"
+            },
+            "depois": {
+              "documento": "7781728",
+              "tipo": "Ficha",
+              "data": "28/08/2026",
+              "data_inclusao": "28/08/2026",
+              "unidade": "COTEC IPHAN-PA"
+            }
+          }
+        ]
+      },
+      "andamentos": {
+        "added": [
+          {
+            "data_hora": "02/09/2026 16:46",
+            "unidade": "COTEC IPHAN-PA",
+            "descricao": "Conclusão do processo na unidade"
+          }
+        ],
+        "removed": [],
+        "modified": []
+      }
+    }
+  },
+  {
     "detected_at": "2026-08-31T22:46:49+00:00",
     "summary": {
       "protocolos_adicionados": 2,

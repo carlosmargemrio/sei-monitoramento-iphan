@@ -5,14 +5,14 @@
   "group": "Santa Lúcia-PA",
   "source_url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7rpiEnX8V1EiwyFG_cvH5804sHUiYI4xuF8YuS0kh1k",
   "active": true,
-  "last_attempt_at": "2026-09-02T18:39:20+00:00",
-  "last_success_at": "2026-09-02T18:39:20+00:00",
+  "last_attempt_at": "2026-09-02T21:46:38+00:00",
+  "last_success_at": "2026-09-02T21:46:38+00:00",
   "last_error_at": null,
   "last_error": null,
   "consecutive_failures": 0,
   "counts": {
-    "protocolos": 445,
-    "andamentos": 506
+    "protocolos": 444,
+    "andamentos": 507
   },
   "protocolos": [
     {
@@ -3027,7 +3027,7 @@
     },
     {
       "documento": "7781617",
-      "tipo": "Anotação de Responsabilidade Técnica (ART)",
+      "tipo": "Anexo",
       "data": "28/08/2026",
       "data_inclusao": "28/08/2026",
       "unidade": "COTEC IPHAN-PA"
@@ -3048,7 +3048,7 @@
     },
     {
       "documento": "7781630",
-      "tipo": "Dados pessoais ou dados pessoais sensíveis",
+      "tipo": "Carta Externa",
       "data": "28/08/2026",
       "data_inclusao": "28/08/2026",
       "unidade": "COTEC IPHAN-PA"
@@ -3076,7 +3076,7 @@
     },
     {
       "documento": "7781657",
-      "tipo": "Dados pessoais ou dados pessoais sensíveis",
+      "tipo": "Carta Externa",
       "data": "28/08/2026",
       "data_inclusao": "28/08/2026",
       "unidade": "COTEC IPHAN-PA"
@@ -3097,21 +3097,21 @@
     },
     {
       "documento": "7781707",
-      "tipo": "Dados pessoais ou dados pessoais sensíveis",
+      "tipo": "Carta Externa",
       "data": "28/08/2026",
       "data_inclusao": "28/08/2026",
       "unidade": "COTEC IPHAN-PA"
     },
     {
       "documento": "7781709",
-      "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+      "tipo": "Ficha",
       "data": "28/08/2026",
       "data_inclusao": "28/08/2026",
       "unidade": "COTEC IPHAN-PA"
     },
     {
       "documento": "7781728",
-      "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+      "tipo": "Ficha",
       "data": "28/08/2026",
       "data_inclusao": "28/08/2026",
       "unidade": "COTEC IPHAN-PA"
@@ -3122,16 +3122,14 @@
       "data": "31/08/2026",
       "data_inclusao": "31/08/2026",
       "unidade": "CGM"
-    },
-    {
-      "documento": "7787950",
-      "tipo": "Ofício 1592",
-      "data": "31/08/2026",
-      "data_inclusao": "31/08/2026",
-      "unidade": "COTEC IPHAN-PA"
     }
   ],
   "andamentos": [
+    {
+      "data_hora": "02/09/2026 16:46",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Conclusão do processo na unidade"
+    },
     {
       "data_hora": "31/08/2026 11:02",
       "unidade": "CAIP-CGM",
@@ -5665,5 +5663,5 @@
   ],
   "initialized": true,
   "baseline_at": "2026-08-26T17:14:08+00:00",
-  "last_change_at": "2026-08-31T22:46:49+00:00"
+  "last_change_at": "2026-09-02T21:46:38+00:00"
 }
