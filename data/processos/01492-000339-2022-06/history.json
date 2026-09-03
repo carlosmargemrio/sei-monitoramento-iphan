@@ -1,5 +1,39 @@
 [
   {
+    "detected_at": "2026-09-03T18:35:08+00:00",
+    "summary": {
+      "protocolos_adicionados": 1,
+      "protocolos_modificados": 0,
+      "protocolos_removidos": 0,
+      "andamentos_adicionados": 0,
+      "andamentos_removidos": 0
+    },
+    "counts": {
+      "protocolos": 445,
+      "andamentos": 507
+    },
+    "details": {
+      "protocolos": {
+        "added": [
+          {
+            "documento": "7800787",
+            "tipo": "Parecer Técnico 745",
+            "data": "03/09/2026",
+            "data_inclusao": "03/09/2026",
+            "unidade": "CAIP-CGM"
+          }
+        ],
+        "removed": [],
+        "modified": []
+      },
+      "andamentos": {
+        "added": [],
+        "removed": [],
+        "modified": []
+      }
+    }
+  },
+  {
     "detected_at": "2026-09-03T14:58:34+00:00",
     "summary": {
       "protocolos_adicionados": 0,
