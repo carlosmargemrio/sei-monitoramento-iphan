@@ -5,14 +5,14 @@
   "group": "Santa Lúcia-PA",
   "source_url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7rpiEnX8V1EiwyFG_cvH5804sHUiYI4xuF8YuS0kh1k",
   "active": true,
-  "last_attempt_at": "2026-09-03T23:47:16+00:00",
-  "last_success_at": "2026-09-03T21:20:02+00:00",
-  "last_error_at": "2026-09-03T23:47:16+00:00",
-  "last_error": "ConnectTimeout: HTTPSConnectionPool(host='sei.iphan.gov.br', port=443): Max retries exceeded with url: /sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7rpiEnX8V1EiwyFG_cvH5804sHUiYI4xuF8YuS0kh1k (Caused by Connec…",
-  "consecutive_failures": 1,
+  "last_attempt_at": "2026-09-04T14:55:38+00:00",
+  "last_success_at": "2026-09-04T14:55:38+00:00",
+  "last_error_at": null,
+  "last_error": null,
+  "consecutive_failures": 0,
   "counts": {
     "protocolos": 445,
-    "andamentos": 507
+    "andamentos": 508
   },
   "protocolos": [
     {
@@ -3133,6 +3133,11 @@
   ],
   "andamentos": [
     {
+      "data_hora": "04/09/2026 09:46",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CAIP-CGM"
+    },
+    {
       "data_hora": "02/09/2026 16:46",
       "unidade": "COTEC IPHAN-PA",
       "descricao": "Conclusão do processo na unidade"
@@ -5670,5 +5675,5 @@
   ],
   "initialized": true,
   "baseline_at": "2026-08-26T17:14:08+00:00",
-  "last_change_at": "2026-09-03T18:35:08+00:00"
+  "last_change_at": "2026-09-04T14:55:38+00:00"
 }
