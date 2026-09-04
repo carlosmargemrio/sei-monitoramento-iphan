@@ -5,11 +5,11 @@
   "group": "Barragem Freixeirinha-CE",
   "source_url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ3dZA-OsGYoznwkFQeG-33wfqRRQE61P3d26ALogAy88",
   "active": true,
-  "last_attempt_at": "2026-09-04T21:11:51+00:00",
+  "last_attempt_at": "2026-09-04T23:11:47+00:00",
   "last_success_at": "2026-09-04T18:20:57+00:00",
-  "last_error_at": "2026-09-04T21:11:51+00:00",
+  "last_error_at": "2026-09-04T23:11:47+00:00",
   "last_error": "ConnectTimeout: HTTPSConnectionPool(host='sei.iphan.gov.br', port=443): Max retries exceeded with url: /sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ3dZA-OsGYoznwkFQeG-33wfqRRQE61P3d26ALogAy88 (Caused by Connec…",
-  "consecutive_failures": 1,
+  "consecutive_failures": 2,
   "counts": {
     "protocolos": 97,
     "andamentos": 112
