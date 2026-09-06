@@ -1,5 +1,37 @@
 [
   {
+    "detected_at": "2026-09-06T14:08:02+00:00",
+    "summary": {
+      "protocolos_adicionados": 0,
+      "protocolos_modificados": 0,
+      "protocolos_removidos": 0,
+      "andamentos_adicionados": 1,
+      "andamentos_removidos": 0
+    },
+    "counts": {
+      "protocolos": 445,
+      "andamentos": 509
+    },
+    "details": {
+      "protocolos": {
+        "added": [],
+        "removed": [],
+        "modified": []
+      },
+      "andamentos": {
+        "added": [
+          {
+            "data_hora": "06/09/2026 00:50",
+            "unidade": "CGM",
+            "descricao": "Processo recebido na unidade"
+          }
+        ],
+        "removed": [],
+        "modified": []
+      }
+    }
+  },
+  {
     "detected_at": "2026-09-04T14:55:38+00:00",
     "summary": {
       "protocolos_adicionados": 0,
