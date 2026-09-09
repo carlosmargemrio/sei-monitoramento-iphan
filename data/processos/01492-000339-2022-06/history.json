@@ -1,5 +1,45 @@
 [
   {
+    "detected_at": "2026-09-09T21:10:08+00:00",
+    "summary": {
+      "protocolos_adicionados": 1,
+      "protocolos_modificados": 0,
+      "protocolos_removidos": 0,
+      "andamentos_adicionados": 1,
+      "andamentos_removidos": 0
+    },
+    "counts": {
+      "protocolos": 446,
+      "andamentos": 510
+    },
+    "details": {
+      "protocolos": {
+        "added": [
+          {
+            "documento": "7819457",
+            "tipo": "Despacho 13452",
+            "data": "09/09/2026",
+            "data_inclusao": "09/09/2026",
+            "unidade": "CGM"
+          }
+        ],
+        "removed": [],
+        "modified": []
+      },
+      "andamentos": {
+        "added": [
+          {
+            "data_hora": "09/09/2026 18:05",
+            "unidade": "PGLic-PA",
+            "descricao": "Processo remetido pela unidade CGM"
+          }
+        ],
+        "removed": [],
+        "modified": []
+      }
+    }
+  },
+  {
     "detected_at": "2026-09-06T14:08:02+00:00",
     "summary": {
       "protocolos_adicionados": 0,
