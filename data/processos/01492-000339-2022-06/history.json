@@ -1,5 +1,207 @@
 [
   {
+    "detected_at": "2026-09-10T21:10:24+00:00",
+    "summary": {
+      "protocolos_adicionados": 22,
+      "protocolos_modificados": 0,
+      "protocolos_removidos": 0,
+      "andamentos_adicionados": 4,
+      "andamentos_removidos": 0
+    },
+    "counts": {
+      "protocolos": 469,
+      "andamentos": 519
+    },
+    "details": {
+      "protocolos": {
+        "added": [
+          {
+            "documento": "7824572",
+            "tipo": "Recibo",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824573",
+            "tipo": "Requerimento",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824575",
+            "tipo": "Relatório de Licenciamento Ambiental",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824576",
+            "tipo": "Dados pessoais ou dados pessoais sensíveis",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824577",
+            "tipo": "Anotação de Responsabilidade Técnica (ART)",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824578",
+            "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824601",
+            "tipo": "Recibo",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824602",
+            "tipo": "Requerimento",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824603",
+            "tipo": "Dados pessoais ou dados pessoais sensíveis",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824606",
+            "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824610",
+            "tipo": "Recibo",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824611",
+            "tipo": "Requerimento",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824612",
+            "tipo": "Dados pessoais ou dados pessoais sensíveis",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824614",
+            "tipo": "Recibo",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824615",
+            "tipo": "Requerimento",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824616",
+            "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824617",
+            "tipo": "Dados pessoais ou dados pessoais sensíveis",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824619",
+            "tipo": "Recibo",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824620",
+            "tipo": "Requerimento",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824621",
+            "tipo": "Dados pessoais ou dados pessoais sensíveis",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824622",
+            "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          },
+          {
+            "documento": "7824624",
+            "tipo": "Arquivos de Mídia e/ou GeoEspaciais",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          }
+        ],
+        "removed": [],
+        "modified": []
+      },
+      "andamentos": {
+        "added": [
+          {
+            "data_hora": "10/09/2026 18:06",
+            "unidade": "COTEC IPHAN-PA",
+            "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+          },
+          {
+            "data_hora": "10/09/2026 18:05",
+            "unidade": "COTEC IPHAN-PA",
+            "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+          },
+          {
+            "data_hora": "10/09/2026 18:01",
+            "unidade": "COTEC IPHAN-PA",
+            "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
+          },
+          {
+            "data_hora": "10/09/2026 18:01",
+            "unidade": "PROT IPHAN",
+            "descricao": "Reabertura do processo na unidade"
+          }
+        ],
+        "removed": [],
+        "modified": []
+      }
+    }
+  },
+  {
     "detected_at": "2026-09-10T18:23:04+00:00",
     "summary": {
       "protocolos_adicionados": 1,
