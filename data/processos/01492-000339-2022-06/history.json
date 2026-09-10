@@ -1,5 +1,55 @@
 [
   {
+    "detected_at": "2026-09-10T18:23:04+00:00",
+    "summary": {
+      "protocolos_adicionados": 1,
+      "protocolos_modificados": 0,
+      "protocolos_removidos": 0,
+      "andamentos_adicionados": 3,
+      "andamentos_removidos": 0
+    },
+    "counts": {
+      "protocolos": 447,
+      "andamentos": 513
+    },
+    "details": {
+      "protocolos": {
+        "added": [
+          {
+            "documento": "7822095",
+            "tipo": "Ofício 1668",
+            "data": "10/09/2026",
+            "data_inclusao": "10/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          }
+        ],
+        "removed": [],
+        "modified": []
+      },
+      "andamentos": {
+        "added": [
+          {
+            "data_hora": "10/09/2026 12:28",
+            "unidade": "COTEC IPHAN-PA",
+            "descricao": "Processo recebido na unidade"
+          },
+          {
+            "data_hora": "10/09/2026 12:28",
+            "unidade": "COTEC IPHAN-PA",
+            "descricao": "Processo remetido pela unidade PGLic-PA"
+          },
+          {
+            "data_hora": "10/09/2026 12:27",
+            "unidade": "PGLic-PA",
+            "descricao": "Processo recebido na unidade"
+          }
+        ],
+        "removed": [],
+        "modified": []
+      }
+    }
+  },
+  {
     "detected_at": "2026-09-09T21:10:08+00:00",
     "summary": {
       "protocolos_adicionados": 1,

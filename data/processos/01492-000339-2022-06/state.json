@@ -5,14 +5,14 @@
   "group": "Santa Lúcia-PA",
   "source_url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7rpiEnX8V1EiwyFG_cvH5804sHUiYI4xuF8YuS0kh1k",
   "active": true,
-  "last_attempt_at": "2026-09-10T14:57:44+00:00",
-  "last_success_at": "2026-09-10T14:57:44+00:00",
+  "last_attempt_at": "2026-09-10T18:23:04+00:00",
+  "last_success_at": "2026-09-10T18:23:04+00:00",
   "last_error_at": null,
   "last_error": null,
   "consecutive_failures": 0,
   "counts": {
-    "protocolos": 446,
-    "andamentos": 510
+    "protocolos": 447,
+    "andamentos": 513
   },
   "protocolos": [
     {
@@ -3136,9 +3136,31 @@
       "data": "09/09/2026",
       "data_inclusao": "09/09/2026",
       "unidade": "CGM"
+    },
+    {
+      "documento": "7822095",
+      "tipo": "Ofício 1668",
+      "data": "10/09/2026",
+      "data_inclusao": "10/09/2026",
+      "unidade": "COTEC IPHAN-PA"
     }
   ],
   "andamentos": [
+    {
+      "data_hora": "10/09/2026 12:28",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "10/09/2026 12:28",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PGLic-PA"
+    },
+    {
+      "data_hora": "10/09/2026 12:27",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo recebido na unidade"
+    },
     {
       "data_hora": "09/09/2026 18:05",
       "unidade": "PGLic-PA",
@@ -5692,5 +5714,5 @@
   ],
   "initialized": true,
   "baseline_at": "2026-08-26T17:14:08+00:00",
-  "last_change_at": "2026-09-09T21:10:08+00:00"
+  "last_change_at": "2026-09-10T18:23:04+00:00"
 }
