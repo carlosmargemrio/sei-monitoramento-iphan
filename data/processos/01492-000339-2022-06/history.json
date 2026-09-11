@@ -1,5 +1,52 @@
 [
   {
+    "detected_at": "2026-09-11T14:58:36+00:00",
+    "summary": {
+      "protocolos_adicionados": 0,
+      "protocolos_modificados": 0,
+      "protocolos_removidos": 0,
+      "andamentos_adicionados": 4,
+      "andamentos_removidos": 0
+    },
+    "counts": {
+      "protocolos": 469,
+      "andamentos": 523
+    },
+    "details": {
+      "protocolos": {
+        "added": [],
+        "removed": [],
+        "modified": []
+      },
+      "andamentos": {
+        "added": [
+          {
+            "data_hora": "11/09/2026 11:50",
+            "unidade": "CGM",
+            "descricao": "Processo remetido pela unidade CGLic"
+          },
+          {
+            "data_hora": "11/09/2026 11:49",
+            "unidade": "CGLic",
+            "descricao": "Processo recebido na unidade"
+          },
+          {
+            "data_hora": "11/09/2026 08:52",
+            "unidade": "CGLic",
+            "descricao": "Processo remetido pela unidade PROT IPHAN"
+          },
+          {
+            "data_hora": "11/09/2026 08:06",
+            "unidade": "COTEC IPHAN-PA",
+            "descricao": "Processo recebido na unidade"
+          }
+        ],
+        "removed": [],
+        "modified": []
+      }
+    }
+  },
+  {
     "detected_at": "2026-09-10T21:10:24+00:00",
     "summary": {
       "protocolos_adicionados": 22,

@@ -5,14 +5,14 @@
   "group": "Santa Lúcia-PA",
   "source_url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7rpiEnX8V1EiwyFG_cvH5804sHUiYI4xuF8YuS0kh1k",
   "active": true,
-  "last_attempt_at": "2026-09-10T23:23:07+00:00",
-  "last_success_at": "2026-09-10T23:23:07+00:00",
+  "last_attempt_at": "2026-09-11T14:58:36+00:00",
+  "last_success_at": "2026-09-11T14:58:36+00:00",
   "last_error_at": null,
   "last_error": null,
   "consecutive_failures": 0,
   "counts": {
     "protocolos": 469,
-    "andamentos": 519
+    "andamentos": 523
   },
   "protocolos": [
     {
@@ -3301,6 +3301,26 @@
   ],
   "andamentos": [
     {
+      "data_hora": "11/09/2026 11:50",
+      "unidade": "CGM",
+      "descricao": "Processo remetido pela unidade CGLic"
+    },
+    {
+      "data_hora": "11/09/2026 11:49",
+      "unidade": "CGLic",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "11/09/2026 08:52",
+      "unidade": "CGLic",
+      "descricao": "Processo remetido pela unidade PROT IPHAN"
+    },
+    {
+      "data_hora": "11/09/2026 08:06",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
       "data_hora": "10/09/2026 18:06",
       "unidade": "COTEC IPHAN-PA",
       "descricao": "Processo remetido pela unidade COTEC IPHAN-PA"
@@ -5898,5 +5918,5 @@
   ],
   "initialized": true,
   "baseline_at": "2026-08-26T17:14:08+00:00",
-  "last_change_at": "2026-09-10T21:10:24+00:00"
+  "last_change_at": "2026-09-11T14:58:36+00:00"
 }
