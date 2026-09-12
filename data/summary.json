@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T23:37:33+00:00",
+  "generated_at": "2026-09-12T14:04:02+00:00",
   "timezone": "America/Bahia",
   "monitoramento": {
     "inicio": "08:00",
@@ -12,7 +12,7 @@
     "destaque_alteracao_horas": 24
   },
   "process_count": 4,
-  "failure_count": 1,
+  "failure_count": 0,
   "change_count": 0,
   "processes": [
     {
@@ -25,8 +25,8 @@
       "initialized": true,
       "baseline_at": "2026-08-26T02:14:23+00:00",
       "last_change_at": null,
-      "last_attempt_at": "2026-09-11T23:31:01+00:00",
-      "last_success_at": "2026-09-11T23:31:01+00:00",
+      "last_attempt_at": "2026-09-12T14:03:45+00:00",
+      "last_success_at": "2026-09-12T14:03:45+00:00",
       "last_error_at": null,
       "last_error": null,
       "consecutive_failures": 0,
@@ -46,8 +46,8 @@
       "initialized": true,
       "baseline_at": "2026-08-26T17:14:02+00:00",
       "last_change_at": null,
-      "last_attempt_at": "2026-09-11T23:31:24+00:00",
-      "last_success_at": "2026-09-11T23:31:24+00:00",
+      "last_attempt_at": "2026-09-12T14:03:50+00:00",
+      "last_success_at": "2026-09-12T14:03:50+00:00",
       "last_error_at": null,
       "last_error": null,
       "consecutive_failures": 0,
@@ -67,8 +67,8 @@
       "initialized": true,
       "baseline_at": "2026-08-26T17:26:07+00:00",
       "last_change_at": null,
-      "last_attempt_at": "2026-09-11T23:31:57+00:00",
-      "last_success_at": "2026-09-11T23:31:57+00:00",
+      "last_attempt_at": "2026-09-12T14:03:55+00:00",
+      "last_success_at": "2026-09-12T14:03:55+00:00",
       "last_error_at": null,
       "last_error": null,
       "consecutive_failures": 0,
@@ -88,11 +88,11 @@
       "initialized": true,
       "baseline_at": "2026-08-26T17:14:08+00:00",
       "last_change_at": "2026-09-11T14:58:36+00:00",
-      "last_attempt_at": "2026-09-11T23:32:13+00:00",
-      "last_success_at": "2026-09-11T21:16:00+00:00",
-      "last_error_at": "2026-09-11T23:32:13+00:00",
-      "last_error": "ConnectionError: HTTPSConnectionPool(host='sei.iphan.gov.br', port=443): Max retries exceeded with url: /sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7rpiEnX8V1EiwyFG_cvH5804sHUiYI4xuF8YuS0kh1k (Caused by ReadT…",
-      "consecutive_failures": 1,
+      "last_attempt_at": "2026-09-12T14:03:59+00:00",
+      "last_success_at": "2026-09-12T14:03:59+00:00",
+      "last_error_at": null,
+      "last_error": null,
+      "consecutive_failures": 0,
       "counts": {
         "protocolos": 469,
         "andamentos": 523
