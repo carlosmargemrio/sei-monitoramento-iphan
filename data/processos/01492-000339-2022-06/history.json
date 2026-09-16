@@ -1,5 +1,67 @@
 [
   {
+    "detected_at": "2026-09-16T15:24:44+00:00",
+    "summary": {
+      "protocolos_adicionados": 2,
+      "protocolos_modificados": 0,
+      "protocolos_removidos": 0,
+      "andamentos_adicionados": 4,
+      "andamentos_removidos": 0
+    },
+    "counts": {
+      "protocolos": 471,
+      "andamentos": 528
+    },
+    "details": {
+      "protocolos": {
+        "added": [
+          {
+            "documento": "7841313",
+            "tipo": "Despacho 13756",
+            "data": "16/09/2026",
+            "data_inclusao": "16/09/2026",
+            "unidade": "CGM"
+          },
+          {
+            "documento": "7841897",
+            "tipo": "Ofício 1712",
+            "data": "16/09/2026",
+            "data_inclusao": "16/09/2026",
+            "unidade": "COTEC IPHAN-PA"
+          }
+        ],
+        "removed": [],
+        "modified": []
+      },
+      "andamentos": {
+        "added": [
+          {
+            "data_hora": "16/09/2026 11:39",
+            "unidade": "COTEC IPHAN-PA",
+            "descricao": "Processo recebido na unidade"
+          },
+          {
+            "data_hora": "16/09/2026 11:18",
+            "unidade": "COTEC IPHAN-PA",
+            "descricao": "Processo remetido pela unidade PGLic-PA"
+          },
+          {
+            "data_hora": "16/09/2026 11:18",
+            "unidade": "PGLic-PA",
+            "descricao": "Processo recebido na unidade"
+          },
+          {
+            "data_hora": "16/09/2026 10:46",
+            "unidade": "PGLic-PA",
+            "descricao": "Processo remetido pela unidade CGM"
+          }
+        ],
+        "removed": [],
+        "modified": []
+      }
+    }
+  },
+  {
     "detected_at": "2026-09-14T16:56:50+00:00",
     "summary": {
       "protocolos_adicionados": 0,

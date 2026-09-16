@@ -5,14 +5,14 @@
   "group": "Santa Lúcia-PA",
   "source_url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7rpiEnX8V1EiwyFG_cvH5804sHUiYI4xuF8YuS0kh1k",
   "active": true,
-  "last_attempt_at": "2026-09-16T01:02:13+00:00",
-  "last_success_at": "2026-09-15T22:25:39+00:00",
-  "last_error_at": "2026-09-16T01:02:13+00:00",
-  "last_error": "ConnectTimeout: HTTPSConnectionPool(host='sei.iphan.gov.br', port=443): Max retries exceeded with url: /sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7rpiEnX8V1EiwyFG_cvH5804sHUiYI4xuF8YuS0kh1k (Caused by Connec…",
-  "consecutive_failures": 1,
+  "last_attempt_at": "2026-09-16T15:24:44+00:00",
+  "last_success_at": "2026-09-16T15:24:44+00:00",
+  "last_error_at": null,
+  "last_error": null,
+  "consecutive_failures": 0,
   "counts": {
-    "protocolos": 469,
-    "andamentos": 524
+    "protocolos": 471,
+    "andamentos": 528
   },
   "protocolos": [
     {
@@ -3297,9 +3297,43 @@
       "data": "10/09/2026",
       "data_inclusao": "10/09/2026",
       "unidade": "COTEC IPHAN-PA"
+    },
+    {
+      "documento": "7841313",
+      "tipo": "Despacho 13756",
+      "data": "16/09/2026",
+      "data_inclusao": "16/09/2026",
+      "unidade": "CGM"
+    },
+    {
+      "documento": "7841897",
+      "tipo": "Ofício 1712",
+      "data": "16/09/2026",
+      "data_inclusao": "16/09/2026",
+      "unidade": "COTEC IPHAN-PA"
     }
   ],
   "andamentos": [
+    {
+      "data_hora": "16/09/2026 11:39",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "16/09/2026 11:18",
+      "unidade": "COTEC IPHAN-PA",
+      "descricao": "Processo remetido pela unidade PGLic-PA"
+    },
+    {
+      "data_hora": "16/09/2026 11:18",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "16/09/2026 10:46",
+      "unidade": "PGLic-PA",
+      "descricao": "Processo remetido pela unidade CGM"
+    },
     {
       "data_hora": "14/09/2026 11:29",
       "unidade": "CGM",
@@ -5923,5 +5957,5 @@
   ],
   "initialized": true,
   "baseline_at": "2026-08-26T17:14:08+00:00",
-  "last_change_at": "2026-09-14T16:56:50+00:00"
+  "last_change_at": "2026-09-16T15:24:44+00:00"
 }
