@@ -5,13 +5,13 @@
   "group": "vermelhos",
   "source_url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7nriYM-K3kWxOqp7qEKmQOg3SuJtxzz81eZxwTY69b5=",
   "active": true,
-  "last_attempt_at": "2026-09-30T16:48:12+00:00",
-  "last_success_at": "2026-09-30T16:48:12+00:00",
+  "last_attempt_at": "2026-09-30T21:24:24+00:00",
+  "last_success_at": "2026-09-30T21:24:24+00:00",
   "last_error_at": null,
   "last_error": null,
   "consecutive_failures": 0,
   "counts": {
-    "protocolos": 185,
+    "protocolos": 187,
     "andamentos": 224
   },
   "protocolos": [
@@ -1309,6 +1309,20 @@
       "data": "12/08/2026",
       "data_inclusao": "12/08/2026",
       "unidade": "DIVAP IPHAN-BA"
+    },
+    {
+      "documento": "7893845",
+      "tipo": "Parecer Técnico 164",
+      "data": "30/09/2026",
+      "data_inclusao": "30/09/2026",
+      "unidade": "COTEC IPHAN-BA"
+    },
+    {
+      "documento": "7893877",
+      "tipo": "Despacho 6151",
+      "data": "30/09/2026",
+      "data_inclusao": "30/09/2026",
+      "unidade": "COTEC IPHAN-BA"
     }
   ],
   "andamentos": [
@@ -2435,5 +2449,5 @@
   ],
   "initialized": true,
   "baseline_at": "2026-08-26T02:14:23+00:00",
-  "last_change_at": null
+  "last_change_at": "2026-09-30T21:24:24+00:00"
 }
