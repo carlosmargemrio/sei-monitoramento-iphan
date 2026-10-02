@@ -1,5 +1,50 @@
 [
   {
+    "detected_at": "2026-10-02T20:58:36+00:00",
+    "summary": {
+      "protocolos_adicionados": 1,
+      "protocolos_modificados": 0,
+      "protocolos_removidos": 0,
+      "andamentos_adicionados": 2,
+      "andamentos_removidos": 0
+    },
+    "counts": {
+      "protocolos": 188,
+      "andamentos": 226
+    },
+    "details": {
+      "protocolos": {
+        "added": [
+          {
+            "documento": "7902174",
+            "tipo": "Despacho 6212",
+            "data": "02/10/2026",
+            "data_inclusao": "02/10/2026",
+            "unidade": "COTEC IPHAN-BA"
+          }
+        ],
+        "removed": [],
+        "modified": []
+      },
+      "andamentos": {
+        "added": [
+          {
+            "data_hora": "02/10/2026 16:31",
+            "unidade": "IPHAN-BA",
+            "descricao": "Processo recebido na unidade"
+          },
+          {
+            "data_hora": "02/10/2026 16:28",
+            "unidade": "IPHAN-BA",
+            "descricao": "Processo remetido pela unidade COTEC IPHAN-BA"
+          }
+        ],
+        "removed": [],
+        "modified": []
+      }
+    }
+  },
+  {
     "detected_at": "2026-09-30T21:24:24+00:00",
     "summary": {
       "protocolos_adicionados": 2,

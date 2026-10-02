@@ -5,14 +5,14 @@
   "group": "vermelhos",
   "source_url": "https://sei.iphan.gov.br/sei/modulos/pesquisa/md_pesq_processo_exibir.php?iI3OtHvPArITY997V09rhsSkbDKbaYSycOHqqF2xsM0IaDkkEyJpus7kCPb435VNEAb16AAxmJKUdrsNWVIqQ7nriYM-K3kWxOqp7qEKmQOg3SuJtxzz81eZxwTY69b5=",
   "active": true,
-  "last_attempt_at": "2026-10-02T16:36:33+00:00",
-  "last_success_at": "2026-10-02T16:36:33+00:00",
+  "last_attempt_at": "2026-10-02T20:58:36+00:00",
+  "last_success_at": "2026-10-02T20:58:36+00:00",
   "last_error_at": null,
   "last_error": null,
   "consecutive_failures": 0,
   "counts": {
-    "protocolos": 187,
-    "andamentos": 224
+    "protocolos": 188,
+    "andamentos": 226
   },
   "protocolos": [
     {
@@ -1323,9 +1323,26 @@
       "data": "30/09/2026",
       "data_inclusao": "30/09/2026",
       "unidade": "COTEC IPHAN-BA"
+    },
+    {
+      "documento": "7902174",
+      "tipo": "Despacho 6212",
+      "data": "02/10/2026",
+      "data_inclusao": "02/10/2026",
+      "unidade": "COTEC IPHAN-BA"
     }
   ],
   "andamentos": [
+    {
+      "data_hora": "02/10/2026 16:31",
+      "unidade": "IPHAN-BA",
+      "descricao": "Processo recebido na unidade"
+    },
+    {
+      "data_hora": "02/10/2026 16:28",
+      "unidade": "IPHAN-BA",
+      "descricao": "Processo remetido pela unidade COTEC IPHAN-BA"
+    },
     {
       "data_hora": "13/08/2026 11:10",
       "unidade": "PROT IPHAN-BA",
@@ -2449,5 +2466,5 @@
   ],
   "initialized": true,
   "baseline_at": "2026-08-26T02:14:23+00:00",
-  "last_change_at": "2026-09-30T21:24:24+00:00"
+  "last_change_at": "2026-10-02T20:58:36+00:00"
 }
